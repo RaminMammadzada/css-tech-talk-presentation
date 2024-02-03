@@ -3,8 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const linksContainer = document.getElementById("links-container");
     const slideContainer = document.getElementById("slide-container");
 
+    const slidesData = [];
     fetch('slides.json')
     .then(response => response.json())
+    .then(data => {
+        slidesData.push(...data);
+        return slidesData;
+    })
     .then(slides => {
         // Dynamically populate links
         slides.forEach((slide, index) => {
@@ -22,51 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
             linksContainer.appendChild(link);
         });
     });
-
-    // Sample data for slides
-    const slidesData = [
-        { title: "Slide 1",
-        html: `
-                <div class="container">
-                <h2>Welcome to Slide 2</h2>
-                <p>This is a modern HTML structure with multiple lines for Slide 2. 
-                It's now extended to make it approximately three times longer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                    <li>Item 6</li>
-                    <li>Item 7</li>
-                    <li>Item 8</li>
-                    <li>Item 9</li>
-                    <li>Item 10</li>
-                </ul>
-                <div class="nested-container">
-                    <p>Another nested section in Slide 2.</p>
-                    <img src="image.jpg" alt="Image">
-                    <span>This section is also extended to make the HTML content longer.</span>
-                    <p>Adding more content to meet the requirement for three times longer HTML.</p>
-                </div>
-            </div>
-        `,
-        css: `
-            ul li {
-                color: red;
-            }
-        `,
-        js: ""
-    },
-        { title: "Slide 2",
-        html: `
-        <div>
-            <h1>hello</h1>
-            <h2>Welcome to Slide 2</h2>
-        </div>`,
-        css: "body { background-color: #aaaa; }",
-        js: "" },
-    ];
 
     toggleViewHomepageButton();
 
