@@ -72,11 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function toggleViewHomepageButton() {
         const homepageButton = document.getElementById("homepage");
+        const redirectionButtons = document.getElementById("redirection-buttons");
         // if homepagebutton style is not set to none, set it to none
         if (homepageButton.style.display !== "none") {
             homepageButton.style.display = "none";
+            redirectionButtons.style.display = "none";
         } else {
             homepageButton.style.display = "block";
+            redirectionButtons.style.display = "block";
         }
     }
 
@@ -108,4 +111,43 @@ document.addEventListener("DOMContentLoaded", function () {
         styleElement.textContent = slide.css;
         document.head.appendChild(styleElement);
     }
+
+    // Additional code for slide navigation
+    let currentSlideIndex = 0;
+
+    function changeSlide(offset) {
+        const newSlideIndex = currentSlideIndex + offset;
+
+        // Ensure the new index is within the bounds of the slides array
+        if (newSlideIndex >= 0 && newSlideIndex < slidesData.length) {
+            currentSlideIndex = newSlideIndex;
+            displaySlide(currentSlideIndex);
+
+            // Enable or disable buttons based on the current slide index
+            updateButtonState();
+        }
+    }
+
+    function updateButtonState() {
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+
+        // Disable "Previous" button on the first slide
+        prevBtn.disabled = currentSlideIndex === 0;
+
+        // Disable "Next" button on the last slide
+        nextBtn.disabled = currentSlideIndex === slidesData.length - 1;
+    }
+
+    // Attach event listeners for previous and next buttons
+    document.getElementById("prevBtn").addEventListener("click", function () {
+        changeSlide(-1);
+    });
+
+    document.getElementById("nextBtn").addEventListener("click", function () {
+        changeSlide(1);
+    });
+
+    // Initial button state setup
+    updateButtonState();
 });
