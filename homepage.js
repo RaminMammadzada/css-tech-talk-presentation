@@ -1,7 +1,9 @@
 // homepage.js
 document.addEventListener("DOMContentLoaded", function () {
+    const presentationHeader = document.getElementById("presentation-header");
     const linksContainer = document.getElementById("links-container");
     const slideContainer = document.getElementById("slide-container");
+    slideContainer.style.display = "none";
 
     const slidesData = [];
     fetch('slides.json')
@@ -21,7 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
             link.addEventListener("click", function () {
                 displaySlide(index);
                 linksContainer.style.display = "none";
+                presentationHeader.style.display = "none";
                 toggleViewHomepageButton();
+                slideContainer.style.display = "flex";
             });
 
             linksContainer.appendChild(link);
@@ -31,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleViewHomepageButton();
 
     function toggleViewHomepageButton() {
-        const homepageButton = document.getElementById("homepage");
+        const homepageButton = document.getElementById("homepage-button");
         const redirectionButtons = document.getElementById("redirection-buttons");
         // if homepagebutton style is not set to none, set it to none
         if (homepageButton.style.display !== "none") {
@@ -55,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         slideContainer.innerHTML = templateContent
             .replace('{{html-title}}', slide.title)
             .replace('{{html}}', slide.html)
+            .replace('{{inhalt}}', slide.inhalt)
             .replace('{{css}}', slide.css);
 
         const scriptElementForPrism = document.createElement('script');
@@ -68,8 +73,15 @@ document.addEventListener("DOMContentLoaded", function () {
         document.head.appendChild(script);
 
         const styleElement = document.createElement('style');
-        styleElement.textContent = slide.css;
+        styleElement.textContent = `
+            .html-result > div {
+                padding: 5px 20px;
+                background-color: #F4F2F0;
+            ${slide.css}
+          }
+        `;
         document.head.appendChild(styleElement);
+        
     }
 
     // Additional code for slide navigation
@@ -81,7 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Ensure the new index is within the bounds of the slides array
         if (newSlideIndex >= 0 && newSlideIndex < slidesData.length) {
             currentSlideIndex = newSlideIndex;
-            displaySlide(currentSlideIndex);
+            displaySlide(currentSlideIndex).then(() => {
+                addEventListenerToToogleCoverButton();
+            });
 
             // Enable or disable buttons based on the current slide index
             updateButtonState();
@@ -110,4 +124,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Initial button state setup
     updateButtonState();
+
+    const toggleButton = document.getElementById('cover-toggle-button');
+    const codeElement = document.getElementById('code');
+    
+    // function addEventListenerToToogleCoverButton() {
+    //     toggleButton.addEventListener('click', function () {
+    //         codeElement.classList.toggle('covered');
+    //         // displaySlide(currentSlideIndex);
+    //     });
+    // }
 });

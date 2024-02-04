@@ -1,27 +1,41 @@
-<div id="content">
-    {{html-title}}
-    <div class="html-result">
-        {{html}}
-    </div>
-</div>
-
- <div id="code">
-    <div class="css-container">
-        <h2>CSS Code</h2>
-        <pre class="language-css">
-            <code>
-                {{css}}
-            </code>
-        </pre>
-    </div>
-
-    <br>
-
-    <div class="html-container">
-        <h2>HTML Code</h2>
-        <pre>
-            <code class="language-markup" id="html-code">
-            </code>
-        </pre>
+<div class="slide-container-wrapper">
+    <h2 id="slide-header">{{html-title}}</h2>
+    <div class="wrapper">
+        <div id="content">
+            <div class="inhalt-wrapper">
+                <div class="inhalt">
+                    {{inhalt}}
+                </div>
+                <br>
+                <br>
+                <hr>
+            </div>
+            <div class="html-result">
+                <h2>HTML Result</h2>
+                <div>
+                    {{html}}
+                </div>
+            </div>
+        </div>
+        
+         <div id="code" class="cover-effect">
+            <div class="css-container">
+                <h2>CSS Code</h2>
+                <pre class="language-css">
+                    <code>
+                        {{css}}
+                    </code>
+                </pre>
+            </div>
+            <br>
+            <hr>
+            <div class="html-container">
+                <h2>HTML Code</h2>
+                <pre>
+                    <code class="language-markup" id="html-code">
+                    </code>
+                </pre>
+            </div>
+        </div>
     </div>
 </div>

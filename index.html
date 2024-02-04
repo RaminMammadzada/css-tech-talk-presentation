@@ -16,14 +16,14 @@
             height: 100vh;
             width: 100vw;
         }
-        #homepage {
+        #homepage-button {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 1.8vh;
+            left: 2.4vh;
 
             border: none;
             border-radius: 5px;
-            background-color: #e0e0e0;
+            background-color: #bfbfbf;
             padding: 10px 20px;
             cursor: pointer;
             text-decoration: none;
@@ -38,25 +38,29 @@
             box-sizing: border-box;
         }
 
-        #content {   
+        #content {
             width: 50%;
             overflow-y: auto;
-            padding: 20px;
-            margin: 2vh 0 2vh 2vh;
-            background-color: #f0f0f0;
+            padding: 2vh;
+            margin: 0 0 0 2vh;
+            background-color: #e0e0e0;
             box-sizing: border-box;
-            height: 96vh;
+            height: 90vh;
+
+            .title {
+                padding-top: 10px;
+            }
         }
 
         #code {
+            position: relative;
             width: 50%;
             overflow-y: auto;
-            padding: 20px;
-            margin: 2vh 2vh 2vh 0;
+            padding: 2vh;
+            margin: 0 2vh 0 0;
             background-color: #e0e0e0;
             box-sizing: border-box;
-            height: 96vh;
-
+            height: 90vh;
             h2 {
                 height: 10%;
             }
@@ -65,11 +69,11 @@
             }
 
             .css-container {
-                height: 45vh;
+            height: 45vh;
             }
             
             .html-container {
-                height: 45vh;
+            height: 45vh;
             }
 
             /* #html-code {
@@ -77,43 +81,67 @@
                 flex-direction: column;
             } */
         }
+
+        #code.covered::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
         
         .wrapper {
             width: 100%;
-            height: 100%;
-            border: 2px solid red;
+            /* border: 2px solid red;   */
+        }
+
+        #slide-title {
+            text-align: center;
+            margin: 12px 0 0 8px;
         }
 
         #links-container {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
-            width: 100%;
-            margin: 20px 0;
+            margin: 20px 35%;
 
             * {
-                margin: 0 10px;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
-                background-color: #e0e0e0;
-                cursor: pointer;
-                text-decoration: none;
-                color: #333;
+            margin: 10px 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
 
                 &:hover {
                     background-color: #e4fff2;
                 }
             }
-
         }
 
         #slide-container {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
             width: 100%;
             height: 100%;
+        }
+
+        #slide-container > h2 {
+            margin: 12px 0 0 8px;
+        }
+
+        #slide-container .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            height: 94vh;
         }
 
         #redirection-buttons {
@@ -144,19 +172,59 @@
                 }
             }
         }
+
+        #cover-toggle-button {
+            position: absolute;
+            top: 2.1vh;
+            left: 40%;
+
+            border: none;
+            border-radius: 5px;
+            background-color: #bfbfbf;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+
+            &:hover {
+                background-color: #e4fff2;
+            }
+        }
+
+        #presentation-header {
+            text-align: center;
+        }
+
+        .slide-container-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+
+        #slide-header {
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
     </style>
 </head>
 <body>
     <main class="wrapper">
+        <h2 id="presentation-header">CSS/SCSS/UI/UX for "Dummies"</h2>
         <div id="links-container"></div>
         <div id="slide-container"></div>
     </main>
     <div>
-        <button id="homepage" onclick="window.location.href='index.html'">Homepage</button>
+        <!-- <button id="cover-toggle-button">Toggle Cover Effect</button> -->
+        <button id="homepage-button" onclick="window.location.href='index.html'">Homepage</button>
     </div>
     <div id="redirection-buttons">
-        <button id="prevBtn" onclick="changeSlide(-1)">Previous</button>
-        <button id="nextBtn" onclick="changeSlide(1)">Next</button>
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
     </div>
 
     <!-- JavaScript script for the homepage -->
