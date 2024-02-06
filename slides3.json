@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Slide 1 - Einführung in CSS und Styling",
+    "inhalt": "<ul>\n  <li><h3>Verständnis der Grundlagen von CSS.</h3></li>\n  <li><h3>Bedeutung von UI/UX und bewährten Praktiken.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Willkommen zum CSS-Kurs</h1>\n  <p>Dieser Kurs führt Sie von den Grundlagen von CSS bis zu fortgeschrittenen Konzepten.</p>\n  <ul>\n    <li>Warum ist CSS wichtig?</li>\n    <li>Mobile Responsivität</li>\n    <li>UI/UX-Grundlagen</li>\n  </ul>\n</div>",
+    "css": "\nh1 { \n  color: #3498db; \n  text-decoration: underline; \n}\nul li { \n  color: #2ecc71; \n}",
+    "js": "",
+    "script": "CSS ist entscheidend für die Gestaltung von Webseiten. Lassen Sie uns mit den Grundlagen beginnen und uns dann zu fortgeschrittenen Konzepten bewegen."
+  },
+  {
+    "title": "Slide 2 - CSS-Vorgänger und Styling-Prinzipien",
+    "inhalt": "<ul>\n  <li><h3>Vorläufer von CSS: HTML-Stilattribute.</h3></li>\n  <li><h3>Die Bedeutung der Trennung von Inhalt und Präsentation.</h3></li>\n</ul>",
+    "html": "\n<div class=\"container\">\n  <h2>Die Anfänge des Web-Stylings</h2>\n  <p>Bevor es CSS gab, wurden HTML-Stilattribute verwendet. Lernen Sie die Prinzipien kennen.</p>\n  <ul>\n    <li>HTML-Stilattribute</li>\n    <li>Trennung von Inhalt und Präsentation</li>\n  </ul>\n</div>",
+    "css": "\n.container h2 { \n  color: #e74c3c; \n}\nul li { \n  font-weight: bold; \n}",
+    "js": "",
+    "script": "Die Geschichte von CSS beginnt mit den Stilattributen von HTML. Verstehen Sie die Bedeutung der Trennung von Inhalt und Präsentation."
+  },
+  {
+    "title": "Slide 3 - DOM-Manipulation und CSS-Selektoren",
+    "inhalt": "<ul>\n  <li><h3>Manipulation des Document Object Models (DOM).</h3></li>\n  <li><h3>Mächtige CSS-Selektoren und ihre Anwendung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>DOM-Manipulation und CSS</h1>\n  <p>Erfahren Sie, wie Sie das DOM manipulieren und leistungsstarke CSS-Selektoren effektiv einsetzen können.</p>\n  <ul>\n    <li>DOM-Manipulation</li>\n    <li>Mächtige CSS-Selektoren</li>\n  </ul>\n</div>",
+    "css": "\nul li:first-child { \n  background-color: #f39c12; \n}\ndiv p { \n  font-style: italic; \n}",
+    "js": "",
+    "script": "Die Manipulation des Document Object Models (DOM) ist entscheidend. Nutzen Sie leistungsstarke CSS-Selektoren für effektives Styling."
+  },
+  {
+    "title": "Slide 4 - Fortgeschrittene CSS-Konzepte",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von Flexbox und Grid für komplexe Layouts.</h3></li>\n  <li><h3>Fortgeschrittene Positionierungstechniken.</h3></li>\n</ul>",
+    "html": "\n<div class=\"container\">\n  <h2>Fortgeschrittene CSS-Konzepte</h2>\n  <p>Entdecken Sie die Möglichkeiten von Flexbox und Grid für komplexe Layouts. Lernen Sie fortgeschrittene Positionierungstechniken.</p>\n  <ul>\n    <li>Flexbox und Grid</li>\n    <li>Fortgeschrittene Positionierung</li>\n  </ul>\n</div>",
+    "css": "\n.container { \n  display: flex; \n  align-items: center; \n  justify-content: space-around; \n}\nul li:last-child { \n  transform: rotate(-15deg); \n}",
+    "js": "",
+    "script": "Nehmen Sie Ihr Layout auf die nächste Stufe mit Flexbox, Grid und fortgeschrittenen Positionierungstechniken."
+  },
+  {
+    "title": "Slide 5 - SCSS, Mixins und Funktionen",
+    "inhalt": "<ul>\n  <li><h3>Die Vorteile von SCSS für effizientes Styling.</h3></li>\n  <li><h3>Verwendung von Mixins und Funktionen für wiederholten Code.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS, Mixins und Funktionen</h1>\n  <p>Erfahren Sie, wie Sie mit SCSS effizient stylen und wiederverwendbaren Code mit Mixins und Funktionen erstellen können.</p>\n  <ul>\n    <li>Vorteile von SCSS</li>\n    <li>Mixins und Funktionen</li>\n  </ul>\n</div>",
+    "css": "\nh1 { \n  color: #9b59b6; \n}\nul li:nth-child(odd) { \n  background-color: #3498db; \n}\n",
+    "js": "",
+    "script": "Steigern Sie Ihre Produktivität mit SCSS und entdecken Sie die Kraft von Mixins und Funktionen für wiederholten Code."
+  },
+  {
+    "title": "Slide 6 - Media Queries und Mobile-First-Design",
+    "inhalt": "<ul>\n  <li><h3>Entwicklung für verschiedene Bildschirmgrößen mit Media Queries.</h3></li>\n  <li><h3>Mobile-First-Designprinzipien und deren Umsetzung.</h3></li>\n</ul>",
+    "html": "\n<div class=\"container\">\n  <h2>Media Queries und Mobile First</h2>\n  <p>Optimieren Sie Ihre Website für verschiedene Geräte. Lernen Sie mobile-first Designprinzipien.</p>\n  <ul>\n    <li>Media Queries</li>\n    <li>Mobile-First-Design</li>\n  </ul>\n</div>",
+    "css": "\n@media (max-width: 768px) { \n  .container { \n    flex-direction: column; \n  } \n}\nul li:nth-child(even) { \n  font-weight: bold; \n}",
+    "js": "",
+    "script": "Gewährleisten Sie eine optimale Benutzererfahrung auf verschiedenen Bildschirmgrößen mit Media Queries und Mobile-First-Design."
+  },
+  {
+    "title": "Slide 7 - Moderne CSS-Funktionen",
+    "inhalt": "<ul>\n  <li><h3>Einführung in moderne CSS-Funktionen.</h3></li>\n  <li><h3>Verwendung von CSS-Variablen, Grid-Auto-Fit und mehr.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Moderne CSS-Funktionen</h1>\n  <p>Halten Sie sich auf dem neuesten Stand mit modernen CSS-Funktionen wie Variablen und Grid-Auto-Fit.</p>\n  <ul>\n    <li>Einführung in moderne Funktionen</li>\n    <li>CSS-Variablen und Grid-Auto-Fit</li>\n  </ul>\n</div>",
+    "css": "\n:root { \n  --main-color: #3498db; \n}\nh1 { \n  color: var(--main-color); \n}\nul li:nth-child(3) { \n  display: grid; \n  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); \n}",
+    "js": "",
+    "script": "Bleiben Sie auf dem neuesten Stand mit modernen CSS-Funktionen und entdecken Sie die Verwendung von CSS-Variablen und Grid-Auto-Fit."
+  },
+  {
+    "title": "Slide 8 - Cross-Browser-Kompatibilität",
+    "inhalt": "<ul>\n  <li><h3>Strategien für Cross-Browser-Kompatibilität.</h3></li>\n  <li><h3>Wichtige Unterschiede zwischen Browsern.</h3></li>\n</ul>",
+    "html": "\n<div class=\"container\">\n  <h2>Cross-Browser-Kompatibilität</h2>\n  <p>Optimieren Sie Ihre Website für verschiedene Browser. Verstehen Sie wichtige Unterschiede und Strategien für Kompatibilität.</p>\n  <ul>\n    <li>Cross-Browser-Kompatibilität</li>\n    <li>Unterschiede zwischen Browsern</li>\n  </ul>\n</div>",
+    "css": "\n.container { \n  display: flex; \n  gap: 20px; \n  justify-content: space-between; \n}\nul li { \n  border: 2px solid #e74c3c; \n}",
+    "js": "",
+    "script": "Gewährleisten Sie eine reibungslose Erfahrung für Benutzer auf verschiedenen Browsern mit Strategien für Cross-Browser-Kompatibilität."
+  },
+  {
+    "title": "Slide 9 - Fortgeschrittene CSS-Funktionen",
+    "inhalt": "<ul>\n  <li><h3>Mehrstufige Selektoren und Pseudoelemente.</h3></li>\n  <li><h3>Animations- und Übergangseffekte für ansprechende UI.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Fortgeschrittene CSS-Funktionen</h1>\n  <p>Entdecken Sie mehrstufige Selektoren, Pseudoelemente sowie Animationen und Übergangseffekte für eine ansprechende Benutzeroberfläche.</p>\n  <ul>\n    <li>Mehrstufige Selektoren</li>\n    <li>Animationen und Übergangseffekte</li>\n  </ul>\n</div>",
+    "css": "\nul li:not(:last-child) { \n  margin-bottom: 10px; \n}\nul li:hover { \n  transform: scale(1.1); \n}",
+    "js": "",
+    "script": "Verleihen Sie Ihrer Website den letzten Schliff mit mehrstufigen Selektoren, Pseudoelementen sowie Animationen und Übergangseffekten."
+  },
+  {
+    "title": "Slide 10 - SCSS und Mixins",
+    "inhalt": "<ul>\n  <li><h3>Die Vorteile von SCSS.</h3></li>\n  <li><h3>Verwendung von Mixins für effizienten Code.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS und Mixins</h1>\n  <p>Erfahren Sie, warum SCSS eine leistungsstarke Erweiterung von CSS ist. Nutzen Sie Mixins für effizienten und wartbaren Code.</p>\n  <ul>\n    <li>Vorteile von SCSS</li>\n    <li>Verwendung von Mixins</li>\n  </ul>\n</div>",
+    "css": "\nh1 { \n  color: #27ae60; \n}\nul li:nth-child(odd) { \n  background-color: #ecf0f1; \n}\n@mixin responsive-text($min-font-size, $max-font-size) { \n  @media screen and (min-width: 768px) { \n    font-size: $max-font-size; \n  }\n  font-size: $min-font-size; \n}\nbody { \n  @include responsive-text(14px, 18px); \n}",
+    "js": "",
+    "script": "Entdecken Sie die Vorteile von SCSS und lernen Sie, wie Sie Mixins verwenden, um effizienten und wartbaren Code zu schreiben."
+  },
+  {
+    "title": "Slide 11 - Mobile-First Design",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen des Mobile-First-Designs.</h3></li>\n  <li><h3>Warum es wichtig ist und bewährte Praktiken.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Mobile-First Design</h1>\n  <p>Erfahren Sie die Grundlagen des Mobile-First-Designs, warum es wichtig ist und bewährte Praktiken für eine optimale Benutzererfahrung.</p>\n  <ul>\n    <li>Mobile-First Design</li>\n    <li>Warum es wichtig ist</li>\n  </ul>\n</div>",
+    "css": "\nbody { \n  font-size: 16px; \n}\n@media screen and (min-width: 768px) { \n  body { \n    font-size: 18px; \n  }\n}",
+    "js": "",
+    "script": "Tauchen Sie ein in die Grundlagen des Mobile-First-Designs, erfahren Sie, warum es wichtig ist, und lernen Sie bewährte Praktiken für eine optimale Benutzererfahrung."
+  },
+  {
+    "title": "Slide 12 - Media Queries",
+    "inhalt": "<ul>\n  <li><h3>Effektive Nutzung von @media Queries.</h3></li>\n  <li><h3>Responsive Designs für verschiedene Geräte.</h3></li>\n</ul>",
+    "html": "\n<div class=\"container\">\n  <h2>Media Queries</h2>\n  <p>Entdecken Sie, wie Sie @media Queries effektiv nutzen und responsive Designs für verschiedene Geräte erstellen.</p>\n  <ul>\n    <li>Nutzung von @media Queries</li>\n    <li>Responsive Designs</li>\n  </ul>\n</div>",
+    "css": "\n.container { \n  display: flex; \n  flex-wrap: wrap; \n}\n@media screen and (min-width: 768px) { \n  .container { \n    justify-content: space-between; \n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, wie Sie @media Queries effektiv nutzen und erstellen Sie responsive Designs für eine optimale Darstellung auf verschiedenen Geräten."
+  },
+  {
+    "title": "Slide 13 - SCSS Functions",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS-Funktionen.</h3></li>\n  <li><h3>Anwendung von Funktionen für wiederverwendbaren Code.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS Functions</h1>\n  <p>Erfahren Sie die Grundlagen von SCSS-Funktionen und wie Sie diese für wiederverwendbaren Code in Ihren Projekten einsetzen können.</p>\n  <ul>\n    <li>Einführung in SCSS-Funktionen</li>\n    <li>Anwendung von Funktionen</li>\n  </ul>\n</div>",
+    "css": "\n$base-font-size: 16px; \nbody { \n  font-size: $base-font-size; \n}\n@function calculate-line-height($font-size, $line-height-ratio) { \n  @return $font-size * $line-height-ratio; \n}\np { \n  line-height: calculate-line-height($base-font-size, 1.5); \n}",
+    "js": "",
+    "script": "Erfahren Sie, wie Sie SCSS-Funktionen einführen und anwenden, um wiederverwendbaren Code in Ihren Projekten zu fördern."
+  },
+  {
+    "title": "Slide 14 - Modern CSS Features",
+    "inhalt": "<ul>\n  <li><h3>Neueste Funktionen in modernem CSS.</h3></li>\n  <li><h3>Flexbox, Grid, Transitions und mehr.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Modern CSS Features</h1>\n  <p>Entdecken Sie die neuesten Funktionen in modernem CSS, einschließlich Flexbox, Grid, Transitions und vieles mehr.</p>\n  <ul>\n    <li>Neueste Funktionen in CSS</li>\n    <li>Flexbox, Grid, Transitions</li>\n  </ul>\n</div>",
+    "css": "\nh1 { \n  font-size: 24px; \n  font-weight: bold; \n}\n.container { \n  display: flex; \n  justify-content: space-between; \n  align-items: center; \n}",
+    "js": "",
+    "script": "Tauchen Sie ein in die neuesten Funktionen von modernem CSS, von Flexbox und Grid bis hin zu Transitions und vielem mehr."
+  },
+  {
+    "title": "Slide 15 - Cross-Browser Compatibility",
+    "inhalt": "<ul>\n  <li><h3>Strategien für Cross-Browser-Kompatibilität.</h3></li>\n  <li><h3>Testing und bewährte Methoden.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Cross-Browser Compatibility</h1>\n  <p>Erfahren Sie, wie Sie Ihre Website für verschiedene Browser optimieren und bewährte Methoden für Cross-Browser-Kompatibilität anwenden.</p>\n  <ul>\n    <li>Strategien für Kompatibilität</li>\n    <li>Testing und bewährte Methoden</li>\n  </ul>\n</div>",
+    "css": "\nbody { \n  -webkit-box-sizing: border-box; \n          box-sizing: border-box; \n}\nimg { \n  max-width: 100%; \n  height: auto; \n}",
+    "js": "",
+    "script": "Erfahren Sie die Strategien zur Gewährleistung der Cross-Browser-Kompatibilität und testen Sie bewährte Methoden für ein reibungsloses Benutzererlebnis."
+  },
+  {
+    "title": "Slide 16 - Medium Features",
+    "inhalt": "<ul>\n  <li><h3>Mittelstufe: Pseudo-Elemente und Pseudo-Klassen.</h3></li>\n  <li><h3>Erweiterte Styling-Techniken.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Medium Features</h1>\n  <p>Tauchen Sie ein in fortgeschrittene Styling-Techniken auf mittlerem Niveau, einschließlich Pseudo-Elementen und Pseudo-Klassen.</p>\n  <ul>\n    <li>Pseudo-Elemente und Pseudo-Klassen</li>\n    <li>Erweiterte Styling-Techniken</li>\n  </ul>\n</div>",
+    "css": "\n.container::before { \n  content: '🚀'; \n  font-size: 36px; \n  margin-right: 10px; \n  vertical-align: middle; \n}\n.container:hover { \n  transform: scale(1.1); \n}",
+    "js": "",
+    "script": "Entdecken Sie mittelstufe Styling-Techniken mit Pseudo-Elementen, Pseudo-Klassen und erweiterten Styling-Methoden."
+  },
+  {
+    "title": "Slide 17 - Advanced Features",
+    "inhalt": "<ul>\n  <li><h3>Fortschrittliche CSS-Selektoren.</h3></li>\n  <li><h3>Kombinatoren und Filtertechniken.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Advanced Features</h1>\n  <p>Erkunden Sie fortgeschrittene CSS-Selektoren, Kombinatoren und Filtertechniken, um präzises und effizientes Styling zu erreichen.</p>\n  <ul>\n    <li>Fortschrittliche CSS-Selektoren</li>\n    <li>Kombinatoren und Filtertechniken</li>\n  </ul>\n</div>",
+    "css": "\n.container > p { \n  font-style: italic; \n}\n.container + div { \n  background-color: #f0f0f0; \n  padding: 10px; \n}",
+    "js": "",
+    "script": "Tauchen Sie ein in fortgeschrittene CSS-Selektoren, Kombinatoren und Filtertechniken für präzises und effizientes Styling."
+  },
+  {
+    "title": "Slide 18 - Mobile-First Design",
+    "inhalt": "<ul>\n  <li><h3>Mobile-First Design-Prinzipien.</h3></li>\n  <li><h3>Warum es wichtig ist und bewährte Methoden.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Mobile-First Design</h1>\n  <p>Erfahren Sie, warum Mobile-First Design wichtig ist, und entdecken Sie bewährte Methoden für ein responsives und benutzerfreundliches Layout.</p>\n  <ul>\n    <li>Mobile-First Design-Prinzipien</li>\n    <li>Warum es wichtig ist und bewährte Methoden</li>\n  </ul>\n</div>",
+    "css": "\n@media (min-width: 768px) { \n  body { \n    font-size: 18px; \n  } \n}\n@media (min-width: 1024px) { \n  body { \n    font-size: 20px; \n  } \n}",
+    "js": "",
+    "script": "Erfahren Sie mehr über Mobile-First Design-Prinzipien, warum es wichtig ist, und bewährte Methoden für ein optimales responsives Layout."
+  },
+  {
+    "title": "Slide 19 - SCSS Mixins",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von SCSS-Mixins für effizientes Styling.</h3></li>\n  <li><h3>Erstellung und Anwendung von Mixins.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS Mixins</h1>\n  <p>Entdecken Sie die Welt der SCSS-Mixins und erfahren Sie, wie Sie sie für effizientes Styling in Ihren Projekten verwenden können.</p>\n  <ul>\n    <li>Verwendung von SCSS-Mixins</li>\n    <li>Erstellung und Anwendung von Mixins</li>\n  </ul>\n</div>",
+    "css": "\n@mixin rounded-corners($radius) { \n  border-radius: $radius; \n}\nbutton { \n  @include rounded-corners(8px); \n  background-color: #3498db; \n  color: #fff; \n}",
+    "js": "",
+    "script": "Tauchen Sie ein in die Welt der SCSS-Mixins und lernen Sie, wie Sie sie für effizientes Styling in Ihren Projekten einsetzen können."
+  },
+  {
+    "title": "Slide 20 - @media Queries",
+    "inhalt": "<ul>\n  <li><h3>Fortgeschrittene @media Queries.</h3></li>\n  <li><h3>Bedingte Stile für unterschiedliche Geräte.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>@media Queries</h1>\n  <p>Erfahren Sie, wie Sie fortgeschrittene @media Queries nutzen, um bedingte Stile für unterschiedliche Geräte und Bildschirmgrößen festzulegen.</p>\n  <ul>\n    <li>Fortgeschrittene @media Queries</li>\n    <li>Bedingte Stile für unterschiedliche Geräte</li>\n  </ul>\n</div>",
+    "css": "\n@media (min-width: 768px) and (max-width: 1023px) { \n  body { \n    background-color: #f9f9f9; \n  } \n}\n@media (min-width: 1024px) { \n  body { \n    background-color: #e6e6e6; \n  } \n}",
+    "js": "",
+    "script": "Nutzen Sie fortgeschrittene @media Queries für bedingte Stile, die sich an verschiedene Geräte und Bildschirmgrößen anpassen."
+  },
+  {
+    "title": "Slide 21 - CSS Preprocessors",
+    "inhalt": "<ul>\n  <li><h3>Einführung in CSS-Präprozessoren.</h3></li>\n  <li><h3>Vorteile von CSS-Präprozessoren.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>CSS Preprocessors</h1>\n  <p>Machen Sie sich mit CSS-Präprozessoren vertraut und erfahren Sie, warum sie in modernen Webentwicklungsprojekten häufig eingesetzt werden.</p>\n  <ul>\n    <li>Einführung in CSS-Präprozessoren</li>\n    <li>Vorteile von CSS-Präprozessoren</li>\n  </ul>\n</div>",
+    "css": "\n// Beispiel in SCSS\n$primary-color: #3498db;\nbody {\n  background-color: $primary-color;\n}",
+    "js": "",
+    "script": "Erfahren Sie mehr über CSS-Präprozessoren und ihre Vorteile in modernen Webentwicklungsprojekten."
+  },
+  {
+    "title": "Slide 22 - Functions in CSS",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von Funktionen in CSS.</h3></li>\n  <li><h3>Kreative Anwendungen von CSS-Funktionen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Functions in CSS</h1>\n  <p>Entdecken Sie die Verwendung von Funktionen in CSS und lernen Sie, wie Sie kreative Anwendungen in Ihrem Styling integrieren können.</p>\n  <ul>\n    <li>Verwendung von Funktionen in CSS</li>\n    <li>Kreative Anwendungen von CSS-Funktionen</li>\n  </ul>\n</div>",
+    "css": "\nbody {\n  font-size: calc(16px + 2vmin);\n}\n.container {\n  background: linear-gradient(to right, #ff8c00, #ff0080);\n}",
+    "js": "",
+    "script": "Erkunden Sie die Verwendung von Funktionen in CSS und integrieren Sie kreative Anwendungen in Ihr Styling."
+  },
+  {
+    "title": "Slide 23 - Cross-Browser Compatibility",
+    "inhalt": "<ul>\n  <li><h3>Herausforderungen und Lösungen.</h3></li>\n  <li><h3>Testing und Best Practices.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Cross-Browser Compatibility</h1>\n  <p>Bewältigen Sie Herausforderungen bei der Cross-Browser-Kompatibilität und erfahren Sie bewährte Methoden für effektives Testing.</p>\n  <ul>\n    <li>Herausforderungen und Lösungen</li>\n    <li>Testing und Best Practices</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Browser-spezifisches Styling */\n@supports (-webkit-appearance: none) {\n  input[type='checkbox'] {\n    background-color: #3498db;\n  }\n}",
+    "js": "",
+    "script": "Bewältigen Sie Herausforderungen bei der Cross-Browser-Kompatibilität und erfahren Sie bewährte Methoden für effektives Testing."
+  },
+  {
+    "title": "Slide 24 - Advanced Features",
+    "inhalt": "<ul>\n  <li><h3>Erweiterte Funktionen und Möglichkeiten.</h3></li>\n  <li><h3>Zukünftige Entwicklungen in CSS.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Advanced Features</h1>\n  <p>Tauchen Sie ein in erweiterte Funktionen und Möglichkeiten von CSS sowie einen Ausblick auf zukünftige Entwicklungen.</p>\n  <ul>\n    <li>Erweiterte Funktionen und Möglichkeiten</li>\n    <li>Zukünftige Entwicklungen in CSS</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für CSS Grid und Subgrid */\n.container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n.nested-container {\n  display: subgrid;\n  grid-template-columns: auto;\n}",
+    "js": "",
+    "script": "Entdecken Sie erweiterte Funktionen und Möglichkeiten von CSS sowie einen Ausblick auf zukünftige Entwicklungen."
+  },
+  {
+    "title": "Slide 25 - Mobile-First Design Principles",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen des Mobile-First Designs.</h3></li>\n  <li><h3>Vorteile und bewährte Methoden.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Mobile-First Design Principles</h1>\n  <p>Erfahren Sie die Grundlagen des Mobile-First Designs und entdecken Sie die Vorteile und bewährten Methoden für eine optimale Benutzererfahrung.</p>\n  <ul>\n    <li>Grundlagen des Mobile-First Designs</li>\n    <li>Vorteile und bewährte Methoden</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Mobile-First Media Query */\n@media only screen and (min-width: 600px) {\n  body {\n    font-size: 18px;\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie die Grundlagen des Mobile-First Designs und entdecken Sie die Vorteile und bewährten Methoden für eine optimale Benutzererfahrung."
+  },
+  {
+    "title": "Slide 26 - Modern CSS Features",
+    "inhalt": "<ul>\n  <li><h3>Flexbox und Grid in der Praxis.</h3></li>\n  <li><h3>Variable Schriften und CSS-Animationen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Modern CSS Features</h1>\n  <p>Setzen Sie Flexbox und Grid in der Praxis ein und entdecken Sie moderne CSS-Features wie variable Schriften und CSS-Animationen.</p>\n  <ul>\n    <li>Flexbox und Grid in der Praxis</li>\n    <li>Variable Schriften und CSS-Animationen</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für CSS-Animationen */\n@keyframes slide-in {\n  from {\n    transform: translateX(-100%);\n  }\n  to {\n    transform: translateX(0);\n  }\n}\n.slide-in {\n  animation: slide-in 0.5s ease-out;\n}",
+    "js": "",
+    "script": "Setzen Sie Flexbox und Grid in der Praxis ein und entdecken Sie moderne CSS-Features wie variable Schriften und CSS-Animationen."
+  },
+  {
+    "title": "Slide 27 - SCSS and Mixins",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS.</h3></li>\n  <li><h3>Verwendung von Mixins für effizientes Styling.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS and Mixins</h1>\n  <p>Machen Sie sich mit SCSS vertraut und erfahren Sie, wie Sie Mixins verwenden können, um Ihr Styling effizienter zu gestalten.</p>\n  <ul>\n    <li>Einführung in SCSS</li>\n    <li>Verwendung von Mixins</li>\n  </ul>\n</div>",
+    "css": "\n// Beispiel für SCSS-Mixins\n@mixin button-styles {\n  background-color: #3498db;\n  color: #fff;\n  padding: 10px 15px;\n  border-radius: 5px;\n}\n\n.button {\n  @include button-styles;\n}",
+    "js": "",
+    "script": "Machen Sie sich mit SCSS vertraut und erfahren Sie, wie Sie Mixins verwenden können, um Ihr Styling effizienter zu gestalten."
+  },
+  {
+    "title": "Slide 28 - Media Queries and Responsive Design",
+    "inhalt": "<ul>\n  <li><h3>Fortgeschrittene @media-Anfragen.</h3></li>\n  <li><h3>Responsive Design Best Practices.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Media Queries and Responsive Design</h1>\n  <p>Erkunden Sie fortgeschrittene @media-Anfragen und bewährte Methoden für ein responsives Design, das sich an verschiedene Bildschirmgrößen anpasst.</p>\n  <ul>\n    <li>Fortgeschrittene @media-Anfragen</li>\n    <li>Responsive Design Best Practices</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Responsive Design */\n@media only screen and (min-width: 768px) {\n  .column {\n    width: 50%;\n  }\n}",
+    "js": "",
+    "script": "Erkunden Sie fortgeschrittene @media-Anfragen und bewährte Methoden für ein responsives Design, das sich an verschiedene Bildschirmgrößen anpasst."
+  },
+  {
+    "title": "Slide 29 - CSS Preprocessors",
+    "inhalt": "<ul>\n  <li><h3>Überblick über CSS-Präprozessoren.</h3></li>\n  <li><h3>Vor- und Nachteile der Verwendung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>CSS Preprocessors</h1>\n  <p>Bekommen Sie einen Überblick über CSS-Präprozessoren und verstehen Sie die Vor- und Nachteile ihrer Verwendung in der Webentwicklung.</p>\n  <ul>\n    <li>Überblick über CSS-Präprozessoren</li>\n    <li>Vor- und Nachteile der Verwendung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von SASS */\n$primary-color: #3498db;\n\n.button {\n  background-color: $primary-color;\n  color: #fff;\n}",
+    "js": "",
+    "script": "Bekommen Sie einen Überblick über CSS-Präprozessoren und verstehen Sie die Vor- und Nachteile ihrer Verwendung in der Webentwicklung."
+  },
+  {
+    "title": "Slide 30 - Cross-Browser Compatibility",
+    "inhalt": "<ul>\n  <li><h3>Warum ist Cross-Browser-Kompatibilität wichtig?</h3></li>\n  <li><h3>Best Practices für die Optimierung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Cross-Browser Compatibility</h1>\n  <p>Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser.</p>\n  <ul>\n    <li>Warum ist Cross-Browser-Kompatibilität wichtig?</li>\n    <li>Best Practices für die Optimierung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Browser-spezifische Anpassungen */\n@supports (-ms-ime-align: auto) {\n  .selector {\n    /* MS Edge-spezifische Anpassungen */\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser."
+  },
+  {
+    "title": "Slide 31 - Advanced CSS Features",
+    "inhalt": "<ul>\n  <li><h3>Grid und Flexbox für fortgeschrittene Layouts.</h3></li>\n  <li><h3>Filter, Blending und Maskierung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Advanced CSS Features</h1>\n  <p>Setzen Sie Grid und Flexbox für fortgeschrittene Layouts ein und erfahren Sie mehr über CSS-Features wie Filter, Blending und Maskierung.</p>\n  <ul>\n    <li>Grid und Flexbox für fortgeschrittene Layouts</li>\n    <li>Filter, Blending und Maskierung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für CSS-Blending */\n.element {\n  background: url('image.jpg') center/cover no-repeat;\n  mix-blend-mode: multiply;\n}",
+    "js": "",
+    "script": "Setzen Sie Grid und Flexbox für fortgeschrittene Layouts ein und erfahren Sie mehr über CSS-Features wie Filter, Blending und Maskierung."
+  },
+  {
+    "title": "Slide 32 - Conclusion",
+    "inhalt": "<ul>\n  <li><h3>Zusammenfassung und Ausblick.</h3></li>\n  <li><h3>Weiterführende Ressourcen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Conclusion</h1>\n  <p>Fassen Sie die wichtigsten Punkte zusammen und erhalten Sie einen Ausblick auf weiterführende Ressourcen, um Ihr CSS- und Styling-Wissen zu vertiefen.</p>\n  <ul>\n    <li>Zusammenfassung und Ausblick</li>\n    <li>Weiterführende Ressourcen</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für abschließende Stile */\nbody {\n  background-color: #f9f9f9;\n  color: #333;\n}",
+    "js": "",
+    "script": "Fassen Sie die wichtigsten Punkte zusammen und erhalten Sie einen Ausblick auf weiterführende Ressourcen, um Ihr CSS- und Styling-Wissen zu vertiefen."
+  },
+  {
+    "title": "Slide 33 - Mobile-First Design",
+    "inhalt": "<ul>\n  <li><h3>Mobile-First-Design-Prinzipien.</h3></li>\n  <li><h3>Warum ist es wichtig?</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Mobile-First Design</h1>\n  <p>Erfahren Sie, wie Sie mobile-first Designprinzipien in Ihre Webentwicklung integrieren und warum es wichtig ist, von mobilen Geräten aus zu denken.</p>\n  <ul>\n    <li>Mobile-First-Design-Prinzipien</li>\n    <li>Warum ist es wichtig?</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für mobiles Design */\n@media only screen and (max-width: 600px) {\n  .element {\n    /* Stile für kleine Bildschirme */\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, wie Sie mobile-first Designprinzipien in Ihre Webentwicklung integrieren und warum es wichtig ist, von mobilen Geräten aus zu denken."
+  },
+  {
+    "title": "Slide 34 - Media Queries",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von @media-Anfragen.</h3></li>\n  <li><h3>Optimierung für verschiedene Geräte.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Media Queries</h1>\n  <p>Erfahren Sie, wie Sie @media-Anfragen verwenden, um Ihre Website für verschiedene Geräte zu optimieren und ein responsives Design zu erstellen.</p>\n  <ul>\n    <li>Verwendung von @media-Anfragen</li>\n    <li>Optimierung für verschiedene Geräte</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Media Queries */\n@media only screen and (min-width: 768px) {\n  .element {\n    /* Stile für größere Bildschirme */\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, wie Sie @media-Anfragen verwenden, um Ihre Website für verschiedene Geräte zu optimieren und ein responsives Design zu erstellen."
+  },
+  {
+    "title": "Slide 35 - SCSS and Mixins",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS.</h3></li>\n  <li><h3>Verwendung von Mixins.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS and Mixins</h1>\n  <p>Tauchen Sie ein in die Welt von SCSS und erfahren Sie, wie Sie Mixins verwenden, um effizienten und wiederverwendbaren Code zu schreiben.</p>\n  <ul>\n    <li>Einführung in SCSS</li>\n    <li>Verwendung von Mixins</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von SCSS und Mixins */\n@mixin button-styles {\n  /* Stile für Schaltflächen */\n}\n\n.button {\n  @include button-styles;\n}",
+    "js": "",
+    "script": "Tauchen Sie ein in die Welt von SCSS und erfahren Sie, wie Sie Mixins verwenden, um effizienten und wiederverwendbaren Code zu schreiben."
+  },
+  {
+    "title": "Slide 36 - Functions in CSS",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen von Funktionen in CSS.</h3></li>\n  <li><h3>Anwendung und Vorteile.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Functions in CSS</h1>\n  <p>Erfahren Sie die Grundlagen von Funktionen in CSS und entdecken Sie ihre Anwendungsmöglichkeiten und Vorteile in der Webentwicklung.</p>\n  <ul>\n    <li>Grundlagen von Funktionen in CSS</li>\n    <li>Anwendung und Vorteile</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von CSS-Funktionen */\n.element {\n  color: darken(#3498db, 20%);\n}",
+    "js": "",
+    "script": "Erfahren Sie die Grundlagen von Funktionen in CSS und entdecken Sie ihre Anwendungsmöglichkeiten und Vorteile in der Webentwicklung."
+  },
+  {
+    "title": "Slide 37 - @media Queries",
+    "inhalt": "<ul>\n  <li><h3>Feinabstimmung mit @media-Anfragen.</h3></li>\n  <li><h3>Adaptive Designs erstellen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>@media Queries</h1>\n  <p>Entdecken Sie fortgeschrittene Techniken zur Feinabstimmung Ihrer Website mit @media-Anfragen und erstellen Sie adaptive Designs für verschiedene Bildschirmgrößen.</p>\n  <ul>\n    <li>Feinabstimmung mit @media-Anfragen</li>\n    <li>Adaptive Designs erstellen</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für komplexe @media-Anfragen */\n@media only screen and (min-width: 1200px) and (orientation: landscape) {\n  .element {\n    /* Stile für große Landschaftsbildschirme */\n  }\n}",
+    "js": "",
+    "script": "Entdecken Sie fortgeschrittene Techniken zur Feinabstimmung Ihrer Website mit @media-Anfragen und erstellen Sie adaptive Designs für verschiedene Bildschirmgrößen."
+  },
+  {
+    "title": "Slide 38 - Modern CSS",
+    "inhalt": "<ul>\n  <li><h3>Neueste Entwicklungen in CSS.</h3></li>\n  <li><h3>Custom Properties und mehr.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Modern CSS</h1>\n  <p>Werfen Sie einen Blick auf die neuesten Entwicklungen in CSS, einschließlich Custom Properties und anderen modernen Funktionen.</p>\n  <ul>\n    <li>Neueste Entwicklungen in CSS</li>\n    <li>Custom Properties und mehr</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von Custom Properties */\n.element {\n  --primary-color: #3498db;\n  color: var(--primary-color);\n}",
+    "js": "",
+    "script": "Werfen Sie einen Blick auf die neuesten Entwicklungen in CSS, einschließlich Custom Properties und anderen modernen Funktionen."
+  },
+  {
+    "title": "Slide 39 - SCSS",
+    "inhalt": "<ul>\n  <li><h3>Fortgeschrittene Funktionen von SCSS.</h3></li>\n  <li><h3>Partials, Imports und mehr.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>SCSS</h1>\n  <p>Erweitern Sie Ihr Wissen über SCSS mit fortgeschrittenen Funktionen wie Partials, Imports und anderen leistungsstarken Werkzeugen.</p>\n  <ul>\n    <li>Fortgeschrittene Funktionen von SCSS</li>\n    <li>Partials, Imports und mehr</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von SCSS-Partials */\n@import 'partials/_buttons';\n\n.element {\n  @include button-styles;\n}",
+    "js": "",
+    "script": "Erweitern Sie Ihr Wissen über SCSS mit fortgeschrittenen Funktionen wie Partials, Imports und anderen leistungsstarken Werkzeugen."
+  },
+  {
+    "title": "Slide 40 - UI/UX Best Practices",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen von UI/UX-Design.</h3></li>\n  <li><h3>Best Practices für eine verbesserte Benutzererfahrung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>UI/UX Best Practices</h1>\n  <p>Lernen Sie die Grundlagen von UI/UX-Design kennen und erfahren Sie, wie Sie Best Practices implementieren, um die Benutzererfahrung zu verbessern.</p>\n  <ul>\n    <li>Grundlagen von UI/UX-Design</li>\n    <li>Best Practices für eine verbesserte Benutzererfahrung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für UI/UX-Stile */\nbody {\n  font-family: 'Roboto', sans-serif;\n}",
+    "js": "",
+    "script": "Lernen Sie die Grundlagen von UI/UX-Design kennen und erfahren Sie, wie Sie Best Practices implementieren, um die Benutzererfahrung zu verbessern."
+  },
+  {
+    "title": "Slide 41 - Cross-Browser Compatibility",
+    "inhalt": "<ul>\n  <li><h3>Warum ist Cross-Browser-Kompatibilität wichtig?</h3></li>\n  <li><h3>Best Practices für die Optimierung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Cross-Browser Compatibility</h1>\n  <p>Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser.</p>\n  <ul>\n    <li>Warum ist Cross-Browser-Kompatibilität wichtig?</li>\n    <li>Best Practices für die Optimierung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Browser-spezifische Anpassungen */\n@supports (-ms-ime-align: auto) {\n  .selector {\n    /* MS Edge-spezifische Anpassungen */\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser."
+  },
+  {
+    "title": "Slide 42 - Cross-Browser Compatibility",
+    "inhalt": "<ul>\n  <li><h3>Warum ist Cross-Browser-Kompatibilität wichtig?</h3></li>\n  <li><h3>Best Practices für die Optimierung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Cross-Browser Compatibility</h1>\n  <p>Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser.</p>\n  <ul>\n    <li>Warum ist Cross-Browser-Kompatibilität wichtig?</li>\n    <li>Best Practices für die Optimierung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Browser-spezifische Anpassungen */\n@supports (-ms-ime-align: auto) {\n  .selector {\n    /* MS Edge-spezifische Anpassungen */\n  }\n}",
+    "js": "",
+    "script": "Erfahren Sie, warum Cross-Browser-Kompatibilität wichtig ist, und entdecken Sie bewährte Methoden zur Optimierung Ihrer Website für verschiedene Browser."
+  },
+  {
+    "title": "Slide 43 - Medium and Advanced Features",
+    "inhalt": "<ul>\n  <li><h3>Mittel- und fortgeschrittene Funktionen in CSS.</h3></li>\n  <li><h3>Verbesserung der Entwicklererfahrung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Medium and Advanced Features</h1>\n  <p>Entdecken Sie mittel- und fortgeschrittene Funktionen in CSS, um die Entwicklererfahrung zu verbessern und leistungsstarke Layouts zu erstellen.</p>\n  <ul>\n    <li>Mittel- und fortgeschrittene Funktionen in CSS</li>\n    <li>Verbesserung der Entwicklererfahrung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Fortgeschrittene CSS-Funktionen */\n.element {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n}",
+    "js": "",
+    "script": "Entdecken Sie mittel- und fortgeschrittene Funktionen in CSS, um die Entwicklererfahrung zu verbessern und leistungsstarke Layouts zu erstellen."
+  },
+  {
+    "title": "Slide 44 - Medium and Advanced Features",
+    "inhalt": "<ul>\n  <li><h3>Mittel- und fortgeschrittene Funktionen in CSS.</h3></li>\n  <li><h3>Verbesserung der Entwicklererfahrung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Medium and Advanced Features</h1>\n  <p>Entdecken Sie mittel- und fortgeschrittene Funktionen in CSS, um die Entwicklererfahrung zu verbessern und leistungsstarke Layouts zu erstellen.</p>\n  <ul>\n    <li>Mittel- und fortgeschrittene Funktionen in CSS</li>\n    <li>Verbesserung der Entwicklererfahrung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für Fortgeschrittene CSS-Funktionen */\n.element {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n}",
+    "js": "",
+    "script": "Entdecken Sie mittel- und fortgeschrittene Funktionen in CSS, um die Entwicklererfahrung zu verbessern und leistungsstarke Layouts zu erstellen."
+  },
+  {
+    "title": "Slide 45 - ID vs. Class",
+    "inhalt": "<ul>\n  <li><h3>Unterschiede zwischen ID und Klasse.</h3></li>\n  <li><h3>Spezifität und Verwendung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>ID vs. Class</h1>\n  <p>Verstehen Sie die Unterschiede zwischen ID und Klasse, ihre Spezifität und die beste Verwendung in verschiedenen Szenarien.</p>\n  <ul>\n    <li>Unterschiede zwischen ID und Klasse</li>\n    <li>Spezifität und Verwendung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für ID-Stile */\n#unique-element {\n  /* Stile für eindeutiges Element */\n}",
+    "js": "",
+    "script": "Verstehen Sie die Unterschiede zwischen ID und Klasse, ihre Spezifität und die beste Verwendung in verschiedenen Szenarien."
+  },
+  {
+    "title": "Slide 46 - ID vs. Class",
+    "inhalt": "<ul>\n  <li><h3>Unterschiede zwischen ID und Klasse.</h3></li>\n  <li><h3>Spezifität und Verwendung.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>ID vs. Class</h1>\n  <p>Verstehen Sie die Unterschiede zwischen ID und Klasse, ihre Spezifität und die beste Verwendung in verschiedenen Szenarien.</p>\n  <ul>\n    <li>Unterschiede zwischen ID und Klasse</li>\n    <li>Spezifität und Verwendung</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für ID-Stile */\n#unique-element {\n  /* Stile für eindeutiges Element */\n}",
+    "js": "",
+    "script": "Verstehen Sie die Unterschiede zwischen ID und Klasse, ihre Spezifität und die beste Verwendung in verschiedenen Szenarien."
+  },
+  {
+    "title": "Slide 47 - !important",
+    "inhalt": "<ul>\n  <li><h3>Warum Sie sich von !important fernhalten sollten.</h3></li>\n  <li><h3>Auswirkungen auf die Wartbarkeit.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>!important</h1>\n  <p>Erfahren Sie, warum es am besten ist, sich von der Verwendung von !important fernzuhalten und welche Auswirkungen es auf die Wartbarkeit Ihres Codes haben kann.</p>\n  <ul>\n    <li>Warum Sie sich von !important fernhalten sollten</li>\n    <li>Auswirkungen auf die Wartbarkeit</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von !important */\n.element {\n  color: red !important;\n}",
+    "js": "",
+    "script": "Erfahren Sie, warum es am besten ist, sich von der Verwendung von !important fernzuhalten und welche Auswirkungen es auf die Wartbarkeit Ihres Codes haben kann."
+  },
+  {
+    "title": "Slide 48 - !important",
+    "inhalt": "<ul>\n  <li><h3>Warum Sie sich von !important fernhalten sollten.</h3></li>\n  <li><h3>Auswirkungen auf die Wartbarkeit.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>!important</h1>\n  <p>Erfahren Sie, warum es am besten ist, sich von der Verwendung von !important fernzuhalten und welche Auswirkungen es auf die Wartbarkeit Ihres Codes haben kann.</p>\n  <ul>\n    <li>Warum Sie sich von !important fernhalten sollten</li>\n    <li>Auswirkungen auf die Wartbarkeit</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für die Verwendung von !important */\n.element {\n  color: red !important;\n}",
+    "js": "",
+    "script": "Erfahren Sie, warum es am besten ist, sich von der Verwendung von !important fernzuhalten und welche Auswirkungen es auf die Wartbarkeit Ihres Codes haben kann."
+  },
+  {
+    "title": "Slide 49 - Conclusion",
+    "inhalt": "<ul>\n  <li><h3>Zusammenfassung und Ausblick.</h3></li>\n  <li><h3>Weiterführende Ressourcen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Conclusion</h1>\n  <p>Fassen Sie die wichtigsten Punkte zusammen und werfen Sie einen Blick auf weiterführende Ressourcen, um Ihr Wissen zu vertiefen.</p>\n  <ul>\n    <li>Zusammenfassung und Ausblick</li>\n    <li>Weiterführende Ressourcen</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für abschließende Stile */\nbody {\n  background-color: #f8f8f8;\n}",
+    "js": "",
+    "script": "Fassen Sie die wichtigsten Punkte zusammen und werfen Sie einen Blick auf weiterführende Ressourcen, um Ihr Wissen zu vertiefen."
+  },
+  {
+    "title": "Slide 50 - Conclusion",
+    "inhalt": "<ul>\n  <li><h3>Zusammenfassung und Ausblick.</h3></li>\n  <li><h3>Weiterführende Ressourcen.</h3></li>\n</ul>",
+    "html": "\n<div>\n  <h1>Conclusion</h1>\n  <p>Fassen Sie die wichtigsten Punkte zusammen und werfen Sie einen Blick auf weiterführende Ressourcen, um Ihr Wissen zu vertiefen.</p>\n  <ul>\n    <li>Zusammenfassung und Ausblick</li>\n    <li>Weiterführende Ressourcen</li>\n  </ul>\n</div>",
+    "css": "\n/* Beispiel für abschließende Stile */\nbody {\n  background-color: #f8f8f8;\n}",
+    "js": "",
+    "script": "Fassen Sie die wichtigsten Punkte zusammen und werfen Sie einen Blick auf weiterführende Ressourcen, um Ihr Wissen zu vertiefen."
+  }
+]

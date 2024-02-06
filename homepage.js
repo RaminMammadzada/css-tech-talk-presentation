@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             link.textContent = slide.title;
 
             link.addEventListener("click", function () {
+                currentSlideIndex = index;
                 displaySlide(index);
                 linksContainer.style.display = "none";
                 presentationHeader.style.display = "none";
@@ -47,10 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    const styleElement = document.createElement('style');
+
     // Function to display slide content
     async function displaySlide(index) {
         const slide = slidesData[index];
-
+        
         // Fetch the content of slide_template.html
         const response = await fetch('slide_template.html');
         const templateContent = await response.text();
@@ -60,7 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
             .replace('{{html-title}}', slide.title)
             .replace('{{html}}', slide.html)
             .replace('{{inhalt}}', slide.inhalt)
-            .replace('{{css}}', slide.css);
+            .replace('{{css}}', slide.css)
+            .replace('{{script}}', slide.script);
 
         const scriptElementForPrism = document.createElement('script');
         scriptElementForPrism.type = 'text/prism-html-markup';
@@ -72,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
         script.src = "https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js";
         document.head.appendChild(script);
 
-        const styleElement = document.createElement('style');
         styleElement.textContent = `
             .html-result > div {
                 padding: 5px 20px;
@@ -92,6 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Ensure the new index is within the bounds of the slides array
         if (newSlideIndex >= 0 && newSlideIndex < slidesData.length) {
+            removeStyling();
             currentSlideIndex = newSlideIndex;
             displaySlide(currentSlideIndex).then(() => {
                 addEventListenerToToogleCoverButton();
@@ -99,6 +103,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Enable or disable buttons based on the current slide index
             updateButtonState();
+        }
+    }
+
+    function removeStyling() {
+        const headElement = document.head;
+        if (headElement.contains(styleElement)) {
+            headElement.removeChild(styleElement);
         }
     }
 
@@ -122,6 +133,15 @@ document.addEventListener("DOMContentLoaded", function () {
         changeSlide(1);
     });
 
+    document.onkeydown = (e) => {
+        e = e || window.event;
+        if (e.keyCode === 37) {
+            changeSlide(-1);
+        } else if (e.keyCode === 39) {
+          changeSlide(1);
+        }
+      }
+    
     // Initial button state setup
     updateButtonState();
 

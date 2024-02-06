@@ -1,0 +1,378 @@
+[
+  {
+    "title": "Slide 1 - Einführung in CSS und Styling",
+    "inhalt": "<ul>\n  <li><h3>Vorstellung von CSS als Styling-Sprache für Webseiten.</h3></li>\n  <li><h3>Bedeutung von CSS für das UI/UX-Design.</h3></li>\n</ul>",
+    "html": "\n<div class=\"intro\">\n  <h2>Willkommen zu CSS und Styling</h2>\n  <p>Entdecken Sie die Grundlagen von CSS als mächtige Styling-Sprache für die Gestaltung moderner Webseiten. Erfahren Sie mehr über die Bedeutung von CSS im UI/UX-Design.</p>\n  <ul>\n    <li>Vorstellung von CSS als Styling-Sprache</li>\n    <li>Bedeutung von CSS für das UI/UX-Design</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Einführung in CSS und Styling */\n.intro {\n  background-color: #f0f0f0;\n  padding: 20px;\n  border-radius: 8px;\n} ul li {\n  transform: rotate(45deg);\n}",
+    "js": "",
+    "script": "Eine Einführung in CSS und Styling für die Gestaltung moderner Webseiten. Erfahren Sie mehr über die Bedeutung von CSS im UI/UX-Design."
+  },
+  {
+    "title": "Slide 2 - CSS-Vorgänger und Entwicklung",
+    "inhalt": "<ul>\n  <li><h3>Entwicklung von CSS von den Anfängen bis heute.</h3></li>\n  <li><h3>Vorstellung von CSS-Präprozessoren und deren Vorteile.</h3></li>\n</ul>",
+    "html": "\n<div class=\"evolution\">\n  <h2>Die Entwicklung von CSS</h2>\n  <p>Von den Anfängen von CSS bis heute: Erfahren Sie mehr über die Geschichte und Fortschritte. Außerdem eine Einführung in CSS-Präprozessoren und deren Vorteile.</p>\n  <ul>\n    <li>Entwicklung von CSS</li>\n    <li>Vorstellung von CSS-Präprozessoren</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Vorgänger und Entwicklung */\n.evolution {\n  background-color: #e6f7ff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Entwicklung von CSS von den Anfängen bis heute und eine Einführung in CSS-Präprozessoren."
+  },
+  {
+    "title": "Slide 3 - DOM-Manipulation mit CSS",
+    "inhalt": "<ul>\n  <li><h3>Wie CSS den DOM manipulieren kann.</h3></li>\n  <li><h3>Praktische Beispiele für DOM-Manipulation.</h3></li>\n</ul>",
+    "html": "\n<div class=\"dom-manipulation\">\n  <h2>DOM-Manipulation mit CSS</h2>\n  <p>Erfahren Sie, wie CSS den Document Object Model (DOM) manipulieren kann. Praktische Beispiele zeigen die Anwendung von CSS für die dynamische Veränderung von Webseiteninhalten.</p>\n  <ul>\n    <li>Wie CSS den DOM manipulieren kann</li>\n    <li>Praktische Beispiele für DOM-Manipulation</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für DOM-Manipulation mit CSS */\n.dom-manipulation {\n  background-color: #d9ead3;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Wie CSS den DOM manipulieren kann und praktische Beispiele für DOM-Manipulation."
+  },
+  {
+    "title": "Slide 4 - Fortgeschrittene CSS-Konzepte",
+    "inhalt": "<ul>\n  <li><h3>Fortgeschrittene Selektoren und Pseudoklassen.</h3></li>\n  <li><h3>Flexbox und Grid für komplexe Layouts.</h3></li>\n</ul>",
+    "html": "\n<div class=\"advanced-concepts\">\n  <h2>Fortgeschrittene CSS-Konzepte</h2>\n  <p>Tauchen Sie ein in fortgeschrittene CSS-Konzepte, einschließlich mächtiger Selektoren, Pseudoklassen und moderner Layout-Techniken wie Flexbox und Grid für komplexe Webseitenlayouts.</p>\n  <ul>\n    <li>Fortgeschrittene Selektoren und Pseudoklassen</li>\n    <li>Flexbox und Grid für komplexe Layouts</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Fortgeschrittene CSS-Konzepte */\n.advanced-concepts {\n  background-color: #ffeb9c;\n  padding: 20px;\n  border-radius: 8px;\n} ul li {\n  color: #2492ec63;\n}",
+    "js": "",
+    "script": "Fortgeschrittene CSS-Konzepte, einschließlich mächtiger Selektoren, Pseudoklassen und moderner Layout-Techniken."
+  },
+  {
+    "title": "Slide 5 - SCSS und CSS-Präprozessoren",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS und CSS-Präprozessoren.</h3></li>\n  <li><h3>Vorteile von SCSS und dessen Anwendung.</h3></li>\n</ul>",
+    "html": "\n<div class=\"scss-intro\">\n  <h2>SCSS und CSS-Präprozessoren</h2>\n  <p>Entdecken Sie SCSS und andere CSS-Präprozessoren. Diese Slide bietet eine Einführung in SCSS und erklärt die Vorteile dieser leistungsstarken Styling-Erweiterung.</p>\n  <ul>\n    <li>Einführung in SCSS und CSS-Präprozessoren</li>\n    <li>Vorteile von SCSS und dessen Anwendung</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für SCSS und CSS-Präprozessoren */\n.scss-intro {\n  background-color: #ffd699;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Einführung in SCSS und CSS-Präprozessoren sowie deren Vorteile und Anwendung."
+  },
+  {
+    "title": "Slide 6 - Media Queries und Responsive Design",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von Media Queries für responsives Design.</h3></li>\n  <li><h3>Mobile-First-Designprinzipien.</h3></li>\n</ul>",
+    "html": "\n<div class=\"responsive-design\">\n  <h2>Media Queries und Responsive Design</h2>\n  <p>Erfahren Sie, wie Sie Media Queries für ein responsives Design verwenden. Zusätzlich werden die Mobile-First-Designprinzipien vorgestellt, um moderne, mobile Benutzererlebnisse zu schaffen.</p>\n  <ul>\n    <li>Verwendung von Media Queries für responsives Design</li>\n    <li>Mobile-First-Designprinzipien</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Media Queries und Responsive Design */\n.responsive-design {\n  background-color: #ccebff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Verwendung von Media Queries für responsives Design und Einführung in die Mobile-First-Designprinzipien."
+  },
+  {
+    "title": "Slide 7 - Moderne CSS-Funktionen und Features",
+    "inhalt": "<ul>\n  <li><h3>Übersicht über moderne CSS-Funktionen.</h3></li>\n  <li><h3>Anwendung von CSS-Grid und Flexbox.</h3></li>\n</ul>",
+    "html": "\n<div class=\"modern-css\">\n  <h2>Moderne CSS-Funktionen und Features</h2>\n  <p>Erhalten Sie eine Übersicht über moderne CSS-Funktionen und deren Anwendung. Vertiefen Sie Ihr Verständnis von CSS-Grid und Flexbox für optimale Layouts.</p>\n  <ul>\n    <li>Übersicht über moderne CSS-Funktionen</li>\n    <li>Anwendung von CSS-Grid und Flexbox</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Moderne CSS-Funktionen und Features */\n.modern-css {\n  background-color: #ffcc99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Übersicht über moderne CSS-Funktionen und Anwendung von CSS-Grid und Flexbox für optimale Layouts."
+  },
+  {
+    "title": "Slide 8 - Mixins und Funktionen in CSS",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von Mixins und Funktionen.</h3></li>\n  <li><h3>Erstellung wiederverwendbarer CSS-Codeblöcke.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-functions\">\n  <h2>Mixins und Funktionen in CSS</h2>\n  <p>Entdecken Sie die Welt von Mixins und Funktionen in CSS. Lernen Sie, wie Sie wiederverwendbaren Code erstellen können, um Ihre Stylesheets effizienter zu gestalten.</p>\n  <ul>\n    <li>Verwendung von Mixins und Funktionen</li>\n    <li>Erstellung wiederverwendbarer CSS-Codeblöcke</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Mixins und Funktionen in CSS */\n.css-functions {\n  background-color: #d9d9d9;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Verwendung von Mixins und Funktionen in CSS für die Erstellung wiederverwendbarer Codeblöcke."
+  },
+  {
+    "title": "Slide 9 - @media Queries und fortgeschrittene Anpassungen",
+    "inhalt": "<ul>\n  <li><h3>Anwendung von @media Queries.</h3></li>\n  <li><h3>Fortgeschrittene Anpassungen für verschiedene Geräte.</h3></li>\n</ul>",
+    "html": "\n<div class=\"media-queries\">\n  <h2>@media Queries und Anpassungen</h2>\n  <p>Erfahren Sie, wie Sie @media Queries verwenden und fortgeschrittene Anpassungen für verschiedene Geräte durchführen können. Optimieren Sie Ihr Design für ein breites Spektrum von Bildschirmgrößen.</p>\n  <ul>\n    <li>Anwendung von @media Queries</li>\n    <li>Fortgeschrittene Anpassungen für verschiedene Geräte</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für @media Queries und fortgeschrittene Anpassungen */\n.media-queries {\n  background-color: #b3b3b3;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Anwendung von @media Queries und fortgeschrittene Anpassungen für verschiedene Geräte."
+  },
+  {
+    "title": "Slide 10 - Cross-Browser-Kompatibilität",
+    "inhalt": "<ul>\n  <li><h3>Herausforderungen und Lösungen bei Cross-Browser-Kompatibilität.</h3></li>\n  <li><h3>Testen und Optimieren für verschiedene Browser.</h3></li>\n</ul>",
+    "html": "\n<div class=\"browser-compatibility\">\n  <h2>Cross-Browser-Kompatibilität</h2>\n  <p>Erfahren Sie mehr über die Herausforderungen und Lösungen bei der Cross-Browser-Kompatibilität. Lernen Sie Techniken zum Testen und Optimieren Ihrer Website für verschiedene Browser kennen.</p>\n  <ul>\n    <li>Herausforderungen und Lösungen</li>\n    <li>Testen und Optimieren für verschiedene Browser</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Cross-Browser-Kompatibilität */\n.browser-compatibility {\n  background-color: #99c2ff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Herausforderungen und Lösungen bei der Cross-Browser-Kompatibilität sowie Techniken zum Testen und Optimieren für verschiedene Browser."
+  },
+  {
+    "title": "Slide 11 - Fortgeschrittene CSS-Funktionen",
+    "inhalt": "<ul>\n  <li><h3>Einblick in fortgeschrittene CSS-Selektoren.</h3></li>\n  <li><h3>Transformations- und Animationsmöglichkeiten.</h3></li>\n</ul>",
+    "html": "\n<div class=\"advanced-css-functions\">\n  <h2>Fortgeschrittene CSS-Funktionen</h2>\n  <p>Bekommen Sie Einblicke in fortgeschrittene CSS-Selektoren sowie Möglichkeiten zur Transformation und Animation von Elementen. Entdecken Sie die kreative Seite von CSS.</p>\n  <ul>\n    <li>Einblick in fortgeschrittene CSS-Selektoren</li>\n    <li>Transformations- und Animationsmöglichkeiten</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Fortgeschrittene CSS-Funktionen */\n.advanced-css-functions {\n  background-color: #ffb3b3;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Einblicke in fortgeschrittene CSS-Selektoren sowie Möglichkeiten zur Transformation und Animation von Elementen."
+  },
+  {
+    "title": "Slide 12 - Unterschied zwischen ID und Klasse",
+    "inhalt": "<ul>\n  <li><h3>Vergleich von ID und Klasse in CSS.</h3></li>\n  <li><h3>Spezifität und Anwendungsfälle.</h3></li>\n</ul>",
+    "html": "\n<div class=\"id-vs-class\">\n  <h2>Unterschied zwischen ID und Klasse</h2>\n  <p>Untersuchen Sie den Vergleich von ID und Klasse in CSS. Erfahren Sie mehr über Spezifität und geeignete Anwendungsfälle für jede.</p>\n  <ul>\n    <li>Vergleich von ID und Klasse in CSS</li>\n    <li>Spezifität und Anwendungsfälle</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Unterschied zwischen ID und Klasse */\n.id-vs-class {\n  background-color: #c2f0c2;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Vergleich von ID und Klasse in CSS, Spezifität und geeignete Anwendungsfälle."
+  },
+  {
+    "title": "Slide 13 - Warum man !important vermeiden sollte",
+    "inhalt": "<ul>\n  <li><h3>Die Auswirkungen von !important.</h3></li>\n  <li><h3>Warum es vermieden werden sollte.</h3></li>\n</ul>",
+    "html": "\n<div class=\"avoid-important\">\n  <h2>Warum man !important vermeiden sollte</h2>\n  <p>Untersuchen Sie die Auswirkungen von !important in CSS und erfahren Sie, warum es vermieden werden sollte. Bessere Alternativen für sauberen und wartbaren Code.</p>\n  <ul>\n    <li>Die Auswirkungen von !important</li>\n    <li>Warum es vermieden werden sollte</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Warum man !important vermeiden sollte */\n.avoid-important {\n  background-color: #ff6666;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Die Auswirkungen von !important in CSS und warum es vermieden werden sollte. Bessere Alternativen für sauberen und wartbaren Code."
+  },
+  {
+    "title": "Slide 14 - Mobile-First Design-Prinzipien",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen des Mobile-First-Designs.</h3></li>\n  <li><h3>Vorteile und bewährte Praktiken.</h3></li>\n</ul>",
+    "html": "\n<div class=\"mobile-first\">\n  <h2>Mobile-First Design-Prinzipien</h2>\n  <p>Erfahren Sie die Grundlagen des Mobile-First-Designs und entdecken Sie die Vorteile und bewährten Praktiken. Gestalten Sie eine benutzerfreundliche Website für alle Geräte.</p>\n  <ul>\n    <li>Grundlagen des Mobile-First-Designs</li>\n    <li>Vorteile und bewährte Praktiken</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Mobile-First Design-Prinzipien */\n.mobile-first {\n  background-color: #99ff99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Grundlagen des Mobile-First-Designs, Vorteile und bewährte Praktiken für eine benutzerfreundliche Website auf allen Geräten."
+  },
+  {
+    "title": "Slide 15 - Moderne CSS-Layouts mit Grid und Flexbox",
+    "inhalt": "<ul>\n  <li><h3>Optimierung von Layouts mit CSS-Grid.</h3></li>\n  <li><h3>Flexbox für flexible und effiziente Designs.</h3></li>\n</ul>",
+    "html": "\n<div class=\"modern-layouts\">\n  <h2>Moderne CSS-Layouts mit Grid und Flexbox</h2>\n  <p>Optimieren Sie Ihre Layouts mit CSS-Grid und entdecken Sie die Flexibilität von Flexbox für effiziente Designs. Moderne Ansätze für ansprechende Webseiten.</p>\n  <ul>\n    <li>Optimierung von Layouts mit CSS-Grid</li>\n    <li>Flexbox für flexible und effiziente Designs</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Moderne CSS-Layouts mit Grid und Flexbox */\n.modern-layouts {\n  background-color: #ffdb4d;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Optimierung von Layouts mit CSS-Grid und Flexbox für flexible und effiziente Designs."
+  },
+  {
+    "title": "Slide 16 - SCSS Mixins für effizientes Styling",
+    "inhalt": "<ul>\n  <li><h3>Nutzung von SCSS Mixins für wiederverwendbaren Code.</h3></li>\n  <li><h3>Erstellung von modularem und effizientem Styling.</h3></li>\n</ul>",
+    "html": "\n<div class=\"scss-mixins\">\n  <h2>SCSS Mixins für effizientes Styling</h2>\n  <p>Erfahren Sie, wie Sie SCSS Mixins verwenden, um wiederverwendbaren Code zu erstellen. Gestalten Sie modulares und effizientes Styling für Ihre Webseiten.</p>\n  <ul>\n    <li>Nutzung von SCSS Mixins für wiederverwendbaren Code</li>\n    <li>Erstellung von modularem und effizientem Styling</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für SCSS Mixins für effizientes Styling */\n.scss-mixins {\n  background-color: #c2a3ff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Nutzung von SCSS Mixins für wiederverwendbaren Code und Erstellung von modularem und effizientem Styling."
+  },
+  {
+    "title": "Slide 17 - Funktionen in CSS für dynamisches Styling",
+    "inhalt": "<ul>\n  <li><h3>Einblick in Funktionen in CSS.</h3></li>\n  <li><h3>Anwendung für dynamisches und variables Styling.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-functions-dynamic\">\n  <h2>Funktionen in CSS für dynamisches Styling</h2>\n  <p>Gewinnen Sie Einblicke in Funktionen in CSS und deren Anwendung für dynamisches und variables Styling. Heben Sie Ihre Webseiten mit kreativen Styling-Optionen hervor.</p>\n  <ul>\n    <li>Einblick in Funktionen in CSS</li>\n    <li>Anwendung für dynamisches und variables Styling</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Funktionen in CSS für dynamisches Styling */\n.css-functions-dynamic {\n  background-color: #ffb3e6;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Einblick in Funktionen in CSS und Anwendung für dynamisches und variables Styling."
+  },
+  {
+    "title": "Slide 18 - Moderne CSS-Features und Best Practices",
+    "inhalt": "<ul>\n  <li><h3>Erkundung moderner CSS-Funktionen.</h3></li>\n  <li><h3>Bewährte Praktiken für sauberen Code und effizientes Styling.</h3></li>\n</ul>",
+    "html": "\n<div class=\"modern-features\">\n  <h2>Moderne CSS-Features und Best Practices</h2>\n  <p>Erkunden Sie moderne CSS-Funktionen und bewährte Praktiken für sauberen Code und effizientes Styling. Halten Sie sich auf dem neuesten Stand der Webentwicklung.</p>\n  <ul>\n    <li>Erkundung moderner CSS-Funktionen</li>\n    <li>Bewährte Praktiken für sauberen Code und effizientes Styling</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Moderne CSS-Features und Best Practices */\n.modern-features {\n  background-color: #99e6e6;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Erkundung moderner CSS-Funktionen und bewährte Praktiken für sauberen Code und effizientes Styling."
+  },
+  {
+    "title": "Slide 19 - Vorstellung von SCSS in der Webentwicklung",
+    "inhalt": "<ul>\n  <li><h3>Warum SCSS in der modernen Webentwicklung?</h3></li>\n  <li><h3>Vorteile und Anwendungsfälle von SCSS.</h3></li>\n</ul>",
+    "html": "\n<div class=\"scss-introduction\">\n  <h2>Vorstellung von SCSS in der Webentwicklung</h2>\n  <p>Entdecken Sie, warum SCSS in der modernen Webentwicklung so populär ist. Erfahren Sie mehr über die Vorteile und Anwendungsfälle von SCSS in der Praxis.</p>\n  <ul>\n    <li>Warum SCSS in der modernen Webentwicklung?</li>\n    <li>Vorteile und Anwendungsfälle von SCSS</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Vorstellung von SCSS in der Webentwicklung */\n.scss-introduction {\n  background-color: #ffb366;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Warum SCSS in der modernen Webentwicklung? Vorteile und Anwendungsfälle von SCSS in der Praxis."
+  },
+  {
+    "title": "Slide 20 - CSS-Präprozessoren: SCSS vs. Less",
+    "inhalt": "<ul>\n  <li><h3>Vergleich von SCSS und Less.</h3></li>\n  <li><h3>Warum SCSS die bevorzugte Wahl ist.</h3></li>\n</ul>",
+    "html": "\n<div class=\"scss-vs-less\">\n  <h2>CSS-Präprozessoren: SCSS vs. Less</h2>\n  <p>Vergleichen Sie SCSS und Less und erfahren Sie, warum SCSS die bevorzugte Wahl in der modernen Webentwicklung ist. Finden Sie die richtige Präprozessor-Lösung für Ihre Projekte.</p>\n  <ul>\n    <li>Vergleich von SCSS und Less</li>\n    <li>Warum SCSS die bevorzugte Wahl ist</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Präprozessoren: SCSS vs. Less */\n.scss-vs-less {\n  background-color: #c2c2d6;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Vergleich von SCSS und Less und warum SCSS die bevorzugte Wahl ist."
+  },
+  {
+    "title": "Slide 21 - Effekte und Animationen in CSS",
+    "inhalt": "<ul>\n  <li><h3>Anwendung von CSS-Übergängen.</h3></li>\n  <li><h3>Erstellung von CSS-Animationen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-effects\">\n  <h2>Effekte und Animationen in CSS</h2>\n  <p>Entdecken Sie die Anwendung von CSS-Übergängen und lernen Sie, CSS-Animationen zu erstellen. Verbessern Sie Ihre Webseiten mit ansprechenden visuellen Effekten.</p>\n  <ul>\n    <li>Anwendung von CSS-Übergängen</li>\n    <li>Erstellung von CSS-Animationen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Effekte und Animationen in CSS */\n.css-effects {\n  background-color: #ffb3ff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Anwendung von CSS-Übergängen und Erstellung von CSS-Animationen für ansprechende visuelle Effekte."
+  },
+  {
+    "title": "Slide 22 - CSS-Transitions und Keyframes",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von CSS-Transitions.</h3></li>\n  <li><h3>Erstellung von Keyframe-Animationen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-transitions-keyframes\">\n  <h2>CSS-Transitions und Keyframes</h2>\n  <p>Erfahren Sie, wie Sie CSS-Transitions verwenden und Keyframe-Animationen erstellen. Verleihen Sie Ihren Elementen flüssige Übergänge und komplexe Bewegungen.</p>\n  <ul>\n    <li>Verwendung von CSS-Transitions</li>\n    <li>Erstellung von Keyframe-Animationen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Transitions und Keyframes */\n.css-transitions-keyframes {\n  background-color: #99ffcc;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Verwendung von CSS-Transitions und Erstellung von Keyframe-Animationen für flüssige Übergänge und komplexe Bewegungen."
+  },
+  {
+    "title": "Slide 23 - Medienabfragen und Responsive Design",
+    "inhalt": "<ul>\n  <li><h3>Optimierung für verschiedene Geräte.</h3></li>\n  <li><h3>Best Practices für medienabhängiges Styling.</h3></li>\n</ul>",
+    "html": "\n<div class=\"media-queries-responsive\">\n  <h2>Medienabfragen und Responsive Design</h2>\n  <p>Optimieren Sie Ihre Website für verschiedene Geräte und erfahren Sie bewährte Praktiken für medienabhängiges Styling. Schaffen Sie ein nahtloses Erlebnis auf allen Bildschirmgrößen.</p>\n  <ul>\n    <li>Optimierung für verschiedene Geräte</li>\n    <li>Best Practices für medienabhängiges Styling</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Medienabfragen und Responsive Design */\n.media-queries-responsive {\n  background-color: #ff6666;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Optimierung für verschiedene Geräte und bewährte Praktiken für medienabhängiges Styling."
+  },
+  {
+    "title": "Slide 24 - CSS Grid und Flexbox kombinieren",
+    "inhalt": "<ul>\n  <li><h3>Integration von CSS Grid und Flexbox.</h3></li>\n  <li><h3>Erstellung komplexer Layouts.</h3></li>\n</ul>",
+    "html": "\n<div class=\"grid-flexbox-combination\">\n  <h2>CSS Grid und Flexbox kombinieren</h2>\n  <p>Integrieren Sie CSS Grid und Flexbox für die Erstellung komplexer Layouts. Nutzen Sie die Stärken beider Technologien für optimale Gestaltungsmöglichkeiten.</p>\n  <ul>\n    <li>Integration von CSS Grid und Flexbox</li>\n    <li>Erstellung komplexer Layouts</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Grid und Flexbox kombinieren */\n.grid-flexbox-combination {\n  background-color: #cc99ff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Integration von CSS Grid und Flexbox für die Erstellung komplexer Layouts."
+  },
+  {
+    "title": "Slide 25 - Barrierefreies Webdesign mit CSS",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen des barrierefreien Webdesigns.</h3></li>\n  <li><h3>Umsetzung mit CSS-Techniken.</h3></li>\n</ul>",
+    "html": "\n<div class=\"accessible-webdesign\">\n  <h2>Barrierefreies Webdesign mit CSS</h2>\n  <p>Erfahren Sie die Grundlagen des barrierefreien Webdesigns und lernen Sie, wie Sie dies mit CSS-Techniken umsetzen können. Schaffen Sie inklusive Webseiten für alle Nutzer.</p>\n  <ul>\n    <li>Grundlagen des barrierefreien Webdesigns</li>\n    <li>Umsetzung mit CSS-Techniken</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Barrierefreies Webdesign mit CSS */\n.accessible-webdesign {\n  background-color: #99ffcc;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Grundlagen des barrierefreien Webdesigns und Umsetzung mit CSS-Techniken."
+  },
+  {
+    "title": "Slide 26 - CSS Frameworks im Überblick",
+    "inhalt": "<ul>\n  <li><h3>Vorstellung beliebter CSS-Frameworks.</h3></li>\n  <li><h3>Auswahl des passenden Frameworks.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-frameworks-overview\">\n  <h2>CSS Frameworks im Überblick</h2>\n  <p>Vorstellung beliebter CSS-Frameworks und Anleitung zur Auswahl des passenden Frameworks für Ihre Projekte. Beschleunigen Sie Ihre Entwicklungsprozesse.</p>\n  <ul>\n    <li>Vorstellung beliebter CSS-Frameworks</li>\n    <li>Auswahl des passenden Frameworks</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Frameworks im Überblick */\n.css-frameworks-overview {\n  background-color: #ffcc99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Vorstellung beliebter CSS-Frameworks und Anleitung zur Auswahl des passenden Frameworks für Ihre Projekte."
+  },
+  {
+    "title": "Slide 27 - Tipps zur Performance-Optimierung in CSS",
+    "inhalt": "<ul>\n  <li><h3>Methoden zur Verbesserung der CSS-Performance.</h3></li>\n  <li><h3>Tools für die Optimierung.</h3></li>\n</ul>",
+    "html": "\n<div class=\"performance-optimization\">\n  <h2>Tipps zur Performance-Optimierung in CSS</h2>\n  <p>Entdecken Sie Methoden zur Verbesserung der CSS-Performance und erfahren Sie, welche Tools Ihnen bei der Optimierung helfen können. Machen Sie Ihre Webseiten schneller und effizienter.</p>\n  <ul>\n    <li>Methoden zur Verbesserung der CSS-Performance</li>\n    <li>Tools für die Optimierung</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Tipps zur Performance-Optimierung in CSS */\n.performance-optimization {\n  background-color: #c2f0c2;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Methoden zur Verbesserung der CSS-Performance und Tools für die Optimierung."
+  },
+  {
+    "title": "Slide 28 - Dark Mode in CSS implementieren",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen der Dark-Mode-Implementierung.</h3></li>\n  <li><h3>Best Practices für ein ansprechendes Dunkel-Design.</h3></li>\n</ul>",
+    "html": "\n<div class=\"dark-mode-implementation\">\n  <h2>Dark Mode in CSS implementieren</h2>\n  <p>Erfahren Sie die Grundlagen der Dark-Mode-Implementierung und folgen Sie Best Practices für ein ansprechendes Dunkel-Design. Bieten Sie Nutzern eine Wahlmöglichkeit für unterschiedliche visuelle Erfahrungen.</p>\n  <ul>\n    <li>Grundlagen der Dark-Mode-Implementierung</li>\n    <li>Best Practices für ein ansprechendes Dunkel-Design</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Dark Mode in CSS implementieren */\n.dark-mode-implementation {\n  background-color: #666699;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Grundlagen der Dark-Mode-Implementierung und Best Practices für ein ansprechendes Dunkel-Design."
+  },
+  {
+    "title": "Slide 29 - CSS im Kontext von JavaScript-Frameworks",
+    "inhalt": "<ul>\n  <li><h3>Integration von CSS in JavaScript-Frameworks.</h3></li>\n  <li><h3>Best Practices für reaktive Benutzeroberflächen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-in-js-frameworks\">\n  <h2>CSS im Kontext von JavaScript-Frameworks</h2>\n  <p>Erfahren Sie, wie CSS in JavaScript-Frameworks integriert wird, und folgen Sie Best Practices für reaktive Benutzeroberflächen. Optimieren Sie die Zusammenarbeit von CSS und JavaScript.</p>\n  <ul>\n    <li>Integration von CSS in JavaScript-Frameworks</li>\n    <li>Best Practices für reaktive Benutzeroberflächen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS im Kontext von JavaScript-Frameworks */\n.css-in-js-frameworks {\n  background-color: #ff9966;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Integration von CSS in JavaScript-Frameworks und Best Practices für reaktive Benutzeroberflächen."
+  },
+  {
+    "title": "Slide 30 - CSS-Module und Komponenten-Styling",
+    "inhalt": "<ul>\n  <li><h3>Nutzung von CSS-Modulen.</h3></li>\n  <li><h3>Komponenten-Styling in modernen Webanwendungen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-modules-components\">\n  <h2>CSS-Module und Komponenten-Styling</h2>\n  <p>Erfahren Sie, wie Sie CSS-Module nutzen und folgen Sie bewährten Praktiken für Komponenten-Styling in modernen Webanwendungen. Strukturieren Sie Ihren Code effizient und skalierbar.</p>\n  <ul>\n    <li>Nutzung von CSS-Modulen</li>\n    <li>Komponenten-Styling in modernen Webanwendungen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Module und Komponenten-Styling */\n.css-modules-components {\n  background-color: #99ccff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Nutzung von CSS-Modulen und bewährten Praktiken für Komponenten-Styling in modernen Webanwendungen."
+  },
+  {
+    "title": "Slide 31 - CSS-Optimierung für Page Speed",
+    "inhalt": "<ul>\n  <li><h3>Einfluss von CSS auf die Ladezeit.</h3></li>\n  <li><h3>Maßnahmen zur Verbesserung des Page Speeds.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-optimization-pagespeed\">\n  <h2>CSS-Optimierung für Page Speed</h2>\n  <p>Untersuchen Sie den Einfluss von CSS auf die Ladezeit und ergreifen Sie Maßnahmen zur Verbesserung des Page Speeds. Optimieren Sie die Performance Ihrer Webseiten für ein optimales Nutzererlebnis.</p>\n  <ul>\n    <li>Einfluss von CSS auf die Ladezeit</li>\n    <li>Maßnahmen zur Verbesserung des Page Speeds</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Optimierung für Page Speed */\n.css-optimization-pagespeed {\n  background-color: #ffcc66;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Einfluss von CSS auf die Ladezeit und Maßnahmen zur Verbesserung des Page Speeds."
+  },
+  {
+    "title": "Slide 32 - CSS im Jahr 2024: Trends und Ausblick",
+    "inhalt": "<ul>\n  <li><h3>Ausblick auf CSS-Trends im Jahr 2024.</h3></li>\n  <li><h3>Entwicklungsperspektiven für die Zukunft.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-2024-trends\">\n  <h2>CSS im Jahr 2024: Trends und Ausblick</h2>\n  <p>Werfen Sie einen Blick auf die CSS-Trends im Jahr 2024 und entdecken Sie Entwicklungsperspektiven für die Zukunft. Bleiben Sie informiert über die neuesten Entwicklungen in der Webgestaltung.</p>\n  <ul>\n    <li>Ausblick auf CSS-Trends im Jahr 2024</li>\n    <li>Entwicklungsperspektiven für die Zukunft</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS im Jahr 2024: Trends und Ausblick */\n.css-2024-trends {\n  background-color: #99ff99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Ausblick auf CSS-Trends im Jahr 2024 und Entwicklungsperspektiven für die Zukunft."
+  },
+  {
+    "title": "Slide 33 - Abschlussfragen",
+    "inhalt": "<ul>\n  <li><h3>Beantwortung Ihrer Fragen.</h3></li>\n  <li><h3>Vielen Dank für Ihre Aufmerksamkeit!</h3></li>\n</ul>",
+    "html": "\n<div class=\"closing-questions\">\n  <h2>Abschlussfragen</h2>\n  <p>Beantwortung Ihrer Fragen und herzlichen Dank für Ihre Aufmerksamkeit! Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung.</p>\n  <ul>\n    <li>Beantwortung Ihrer Fragen</li>\n    <li>Vielen Dank für Ihre Aufmerksamkeit!</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Abschlussfragen */\n.closing-questions {\n  background-color: #ff6666;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Beantwortung Ihrer Fragen und herzlichen Dank für Ihre Aufmerksamkeit! Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung."
+  },
+  {
+    "title": "Slide 34 - CSS Grid und Flexbox",
+    "inhalt": "<ul>\n  <li><h3>Optimale Kombination von CSS Grid und Flexbox.</h3></li>\n  <li><h3>Praktische Anwendungen in modernen Layouts.</h3></li>\n</ul>",
+    "html": "\n<div class=\"grid-flexbox-combination\">\n  <h2>CSS Grid und Flexbox</h2>\n  <p>Erfahren Sie, wie Sie CSS Grid und Flexbox optimal kombinieren und setzen Sie diese Techniken in modernen Layouts praktisch ein. Nutzen Sie die Stärken beider Technologien für flexible und effiziente Designs.</p>\n  <ul>\n    <li>Optimale Kombination von CSS Grid und Flexbox</li>\n    <li>Praktische Anwendungen in modernen Layouts</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Grid und Flexbox */\n.grid-flexbox-combination {\n  background-color: #ffcc99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Optimale Kombination von CSS Grid und Flexbox mit praktischen Anwendungen in modernen Layouts."
+  },
+  {
+    "title": "Slide 35 - Advanced CSS Transitions",
+    "inhalt": "<ul>\n  <li><h3>Fortgeschrittene Anwendungen von CSS-Übergängen.</h3></li>\n  <li><h3>Erstellung fließender Animationen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"advanced-transitions\">\n  <h2>Advanced CSS Transitions</h2>\n  <p>Entdecken Sie fortgeschrittene Anwendungen von CSS-Übergängen und lernen Sie, fließende Animationen zu erstellen. Verbessern Sie die Benutzererfahrung durch geschickte Nutzung von Transition-Eigenschaften.</p>\n  <ul>\n    <li>Fortgeschrittene Anwendungen von CSS-Übergängen</li>\n    <li>Erstellung fließender Animationen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Advanced CSS Transitions */\n.advanced-transitions {\n  background-color: #66cc66;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Fortgeschrittene Anwendungen von CSS-Übergängen und Erstellung fließender Animationen."
+  },
+  {
+    "title": "Slide 36 - CSS Transformations",
+    "inhalt": "<ul>\n  <li><h3>Kreative Transformationen in CSS.</h3></li>\n  <li><h3>Praktische Beispiele für visuelle Effekte.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-transformations\">\n  <h2>CSS Transformations</h2>\n  <p>Entfalten Sie Ihre Kreativität mit beeindruckenden Transformationen in CSS. Erleben Sie praktische Beispiele für visuelle Effekte, die durch geschickte Nutzung von Transformationsfunktionen erzielt werden.</p>\n  <ul>\n    <li>Kreative Transformationen in CSS</li>\n    <li>Praktische Beispiele für visuelle Effekte</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Transformations */\n.css-transformations {\n  background-color: #ffb366;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Kreative Transformationen in CSS mit praktischen Beispielen für visuelle Effekte."
+  },
+  {
+    "title": "Slide 37 - Responsive Web Typography",
+    "inhalt": "<ul>\n  <li><h3>Optimierung von Typografie für verschiedene Bildschirmgrößen.</h3></li>\n  <li><h3>Verwendung von REM-Einheiten und VW/VH-Einheiten.</h3></li>\n</ul>",
+    "html": "\n<div class=\"responsive-typography\">\n  <h2>Responsive Web Typography</h2>\n  <p>Optimieren Sie die Typografie Ihrer Webseite für verschiedene Bildschirmgrößen. Erfahren Sie die Verwendung von REM-Einheiten und VW/VH-Einheiten, um flexible und ansprechende Texte zu gestalten.</p>\n  <ul>\n    <li>Optimierung von Typografie für verschiedene Bildschirmgrößen</li>\n    <li>Verwendung von REM-Einheiten und VW/VH-Einheiten</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Responsive Web Typography */\n.responsive-typography {\n  background-color: #ffccff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Optimierung von Typografie für verschiedene Bildschirmgrößen mit der Verwendung von REM-Einheiten und VW/VH-Einheiten."
+  },
+  {
+    "title": "Slide 38 - CSS Custom Properties",
+    "inhalt": "<ul>\n  <li><h3>Flexibles Styling mit benutzerdefinierten Eigenschaften.</h3></li>\n  <li><h3>Dynamische Aktualisierung von Designvariablen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-custom-properties\">\n  <h2>CSS Custom Properties</h2>\n  <p>Erlangen Sie Flexibilität im Styling mit benutzerdefinierten CSS-Eigenschaften. Erforschen Sie die dynamische Aktualisierung von Designvariablen und verbessern Sie die Wartbarkeit Ihres Codes.</p>\n  <ul>\n    <li>Flexibles Styling mit benutzerdefinierten Eigenschaften</li>\n    <li>Dynamische Aktualisierung von Designvariablen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Custom Properties */\n.css-custom-properties {\n  background-color: #99ffcc;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Flexibles Styling mit benutzerdefinierten Eigenschaften und dynamische Aktualisierung von Designvariablen."
+  },
+  {
+    "title": "Slide 39 - Dark Mode Design mit CSS",
+    "inhalt": "<ul>\n  <li><h3>Implementierung von Dark Mode in Ihrer Webseite.</h3></li>\n  <li><h3>Best Practices für dunkles Webdesign.</h3></li>\n</ul>",
+    "html": "\n<div class=\"dark-mode-design\">\n  <h2>Dark Mode Design mit CSS</h2>\n  <p>Erfahren Sie, wie Sie Dark Mode in Ihrer Webseite implementieren. Erhalten Sie Einblicke in Best Practices für dunkles Webdesign und schaffen Sie eine ansprechende Benutzererfahrung.</p>\n  <ul>\n    <li>Implementierung von Dark Mode in Ihrer Webseite</li>\n    <li>Best Practices für dunkles Webdesign</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Dark Mode Design mit CSS */\n.dark-mode-design {\n  background-color: #ff6666;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Implementierung von Dark Mode in Ihrer Webseite mit Best Practices für dunkles Webdesign."
+  },
+  {
+    "title": "Slide 40 - CSS-Animationen: Keyframes",
+    "inhalt": "<ul>\n  <li><h3>Erstellung von CSS-Animationen mit Keyframes.</h3></li>\n  <li><h3>Anwendung in Benutzeroberflächen.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-animations-keyframes\">\n  <h2>CSS-Animationen: Keyframes</h2>\n  <p>Lernen Sie, CSS-Animationen mithilfe von Keyframes zu erstellen und erfahren Sie deren Anwendung in Benutzeroberflächen. Verleihen Sie Ihren Webseiten mit animierten Elementen einen beeindruckenden Touch.</p>\n  <ul>\n    <li>Erstellung von CSS-Animationen mit Keyframes</li>\n    <li>Anwendung in Benutzeroberflächen</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Animationen: Keyframes */\n.css-animations-keyframes {\n  background-color: #66ccff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Erstellung von CSS-Animationen mit Keyframes und deren Anwendung in Benutzeroberflächen."
+  },
+  {
+    "title": "Slide 41 - CSS-Grid: Complex Layouts",
+    "inhalt": "<ul>\n  <li><h3>Erweiterte Anwendungen von CSS Grid.</h3></li>\n  <li><h3>Umsetzung komplexer Layouts.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-grid-complex-layouts\">\n  <h2>CSS-Grid: Complex Layouts</h2>\n  <p>Entdecken Sie erweiterte Anwendungen von CSS Grid und erfahren Sie, wie Sie komplexe Layouts umsetzen können. Nutzen Sie die Flexibilität von CSS Grid für anspruchsvolle Webseitenstrukturen.</p>\n  <ul>\n    <li>Erweiterte Anwendungen von CSS Grid</li>\n    <li>Umsetzung komplexer Layouts</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Grid: Complex Layouts */\n.css-grid-complex-layouts {\n  background-color: #ffcc99;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Erweiterte Anwendungen von CSS Grid mit Umsetzung komplexer Layouts."
+  },
+  {
+    "title": "Slide 42 - CSS-Preprocessors: SCSS",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS als CSS-Preprocessor.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+    "html": "\n<div class=\"scss-introduction\">\n  <h2>CSS-Preprocessors: SCSS</h2>\n  <p>Machen Sie sich mit SCSS als CSS-Preprocessor vertraut. Erfahren Sie die Vorteile und entdecken Sie praktische Anwendungsbeispiele für effizientes Styling mit SCSS.</p>\n  <ul>\n    <li>Einführung in SCSS als CSS-Preprocessor</li>\n    <li>Vorteile und Anwendungsbeispiele</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS-Preprocessors: SCSS */\n.scss-introduction {\n  background-color: #66cc66;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Einführung in SCSS als CSS-Preprocessor mit Vorteilen und Anwendungsbeispielen."
+  },
+  {
+    "title": "Slide 43 - CSS Functions and Mixins",
+    "inhalt": "<ul>\n  <li><h3>Nutzung von Funktionen und Mixins in CSS.</h3></li>\n  <li><h3>Erstellung wiederverwendbarer Codeblöcke.</h3></li>\n</ul>",
+    "html": "\n<div class=\"css-functions-mixins\">\n  <h2>CSS Functions and Mixins</h2>\n  <p>Erfahren Sie, wie Sie Funktionen und Mixins in CSS nutzen und erstellen Sie wiederverwendbare Codeblöcke. Verbessern Sie die Effizienz Ihrer Stylesheets durch geschickte Verwendung von Funktionen und Mixins.</p>\n  <ul>\n    <li>Nutzung von Funktionen und Mixins in CSS</li>\n    <li>Erstellung wiederverwendbarer Codeblöcke</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für CSS Functions and Mixins */\n.css-functions-mixins {\n  background-color: #ffb366;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Nutzung von Funktionen und Mixins in CSS mit Erstellung wiederverwendbarer Codeblöcke."
+  },
+  {
+    "title": "Slide 44 - Mobile First Design Principles",
+    "inhalt": "<ul>\n  <li><h3>Grundlagen des Mobile-First-Designs.</h3></li>\n  <li><h3>Entwicklung von responsiven Webseiten.</h3></li>\n</ul>",
+    "html": "\n<div class=\"mobile-first-design\">\n  <h2>Mobile First Design Principles</h2>\n  <p>Tauchen Sie ein in die Grundlagen des Mobile-First-Designs und lernen Sie, responsive Webseiten zu entwickeln. Verstehen Sie die Bedeutung der mobilen Benutzererfahrung für Ihren Erfolg im Web.</p>\n  <ul>\n    <li>Grundlagen des Mobile-First-Designs</li>\n    <li>Entwicklung von responsiven Webseiten</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Mobile First Design Principles */\n.mobile-first-design {\n  background-color: #ffccff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Grundlagen des Mobile-First-Designs mit Entwicklung von responsiven Webseiten."
+  },
+  {
+    "title": "Slide 45 - Media Queries and Breakpoints",
+    "inhalt": "<ul>\n  <li><h3>Gezielte Anpassungen mit Media Queries.</h3></li>\n  <li><h3>Definition von Breakpoints für verschiedene Geräte.</h3></li>\n</ul>",
+    "html": "\n<div class=\"media-queries-breakpoints\">\n  <h2>Media Queries and Breakpoints</h2>\n  <p>Erfahren Sie, wie Sie gezielte Anpassungen mit Media Queries vornehmen und definieren Sie Breakpoints für verschiedene Geräte. Gestalten Sie eine optimale Benutzererfahrung auf Desktops, Tablets und Smartphones.</p>\n  <ul>\n    <li>Gezielte Anpassungen mit Media Queries</li>\n    <li>Definition von Breakpoints für verschiedene Geräte</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Media Queries and Breakpoints */\n.media-queries-breakpoints {\n  background-color: #99ffcc;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Gezielte Anpassungen mit Media Queries und Definition von Breakpoints für verschiedene Geräte."
+  },
+  {
+    "title": "Slide 46 - Advanced Media Queries",
+    "inhalt": "<ul>\n  <li><h3>Komplexere Anpassungen an unterschiedliche Bildschirmgrößen.</h3></li>\n  <li><h3>Einbindung von hochauflösenden Grafiken.</h3></li>\n</ul>",
+    "html": "\n<div class=\"advanced-media-queries\">\n  <h2>Advanced Media Queries</h2>\n  <p>Nehmen Sie komplexere Anpassungen an unterschiedliche Bildschirmgrößen vor und binden Sie hochauflösende Grafiken ein. Optimieren Sie die Darstellung Ihrer Webseite auf verschiedenen Geräten für eine beeindruckende visuelle Erfahrung.</p>\n  <ul>\n    <li>Komplexere Anpassungen an unterschiedliche Bildschirmgrößen</li>\n    <li>Einbindung von hochauflösenden Grafiken</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Advanced Media Queries */\n.advanced-media-queries {\n  background-color: #ff6666;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Komplexere Anpassungen an unterschiedliche Bildschirmgrößen mit Einbindung von hochauflösenden Grafiken."
+  },
+  {
+    "title": "Slide 47 - Modern CSS Features",
+    "inhalt": "<ul>\n  <li><h3>Entdeckung moderner CSS-Features.</h3></li>\n  <li><h3>Anwendung von Grid, Flexbox, Transitions und mehr.</h3></li>\n</ul>",
+    "html": "\n<div class=\"modern-css-features\">\n  <h2>Modern CSS Features</h2>\n  <p>Entdecken Sie moderne CSS-Features und erfahren Sie, wie Sie Grid, Flexbox, Transitions und mehr effektiv anwenden. Halten Sie Ihre Stylesheets auf dem neuesten Stand und gestalten Sie zeitgemäße Webseiten.</p>\n  <ul>\n    <li>Entdeckung moderner CSS-Features</li>\n    <li>Anwendung von Grid, Flexbox, Transitions und mehr</li>\n  </ul>\n</div>",
+    "css": "\n/* Styles für Modern CSS Features */\n.modern-css-features {\n  background-color: #66ccff;\n  padding: 20px;\n  border-radius: 8px;\n}",
+    "js": "",
+    "script": "Entdeckung moderner CSS-Features mit Anwendung von Grid, Flexbox, Transitions und mehr."
+  }
+]

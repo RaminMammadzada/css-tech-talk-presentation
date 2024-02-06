@@ -1,0 +1,340 @@
+[
+    {
+      "title": "Slide 1 - Einführung in CSS und Styling",
+      "inhalt": "<ul>\n  <li><h3>Verständnis der Grundlagen von CSS.</h3></li>\n  <li><h3>Bedeutung von UI/UX und bewährten Praktiken.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Willkommen zum CSS-Kurs</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <header class=\"header\">\n    <h1 class=\"title\">Willkommen zum CSS-Kurs</h1>\n    <p class=\"subtitle\">Dieser Kurs führt Sie von den Grundlagen von CSS bis zu fortgeschrittenen Konzepten.</p>\n  </header>\n  <section class=\"course-info\">\n    <div class=\"info-item\">Warum ist CSS wichtig?</div>\n    <div class=\"info-item\">Mobile Responsivität</div>\n    <div class=\"info-item\">UI/UX-Grundlagen</div>\n  </section>\n</body>\n</html>",
+      "css": "\n.header {\n  background-color: #3498db;\n  color: #fff;\n  padding: 20px;\n}\n.title {\n  text-decoration: underline;\n}\n.info-item {\n  font-size: 18px;\n  margin-bottom: 10px;\n}",
+      "js": "",
+      "script": "CSS ist entscheidend für die Gestaltung von Webseiten. Lassen Sie uns mit den Grundlagen beginnen und uns dann zu fortgeschrittenen Konzepten bewegen."
+    },
+    {
+      "title": "Slide 2 - CSS-Vorgänger und Styling-Prinzipien",
+      "inhalt": "<ul>\n  <li><h3>Vorläufer von CSS: HTML-Stilattribute.</h3></li>\n  <li><h3>Die Bedeutung der Trennung von Inhalt und Präsentation.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Die Anfänge des Web-Stylings</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <div class=\"container\">\n    <h2 class=\"section-title\">Die Anfänge des Web-Stylings</h2>\n    <p class=\"section-description\">Bevor es CSS gab, wurden HTML-Stilattribute verwendet. Lernen Sie die Prinzipien kennen.</p>\n    <ul class=\"point-list\">\n      <li class=\"point\">HTML-Stilattribute</li>\n      <li class=\"point\">Trennung von Inhalt und Präsentation</li>\n    </ul>\n  </div>\n</body>\n</html>",
+      "css": "\n.container {\n  background-color: #f1c40f;\n  padding: 20px;\n  text-align: center;\n}\n.section-title {\n  color: #e74c3c;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-weight: bold;\n}",
+      "js": "",
+      "script": "Die Geschichte von CSS beginnt mit den Stilattributen von HTML. Verstehen Sie die Bedeutung der Trennung von Inhalt und Präsentation."
+    },
+    {
+      "title": "Slide 3 - DOM-Manipulation und CSS-Selektoren",
+      "inhalt": "<ul>\n  <li><h3>Manipulation des Document Object Models (DOM).</h3></li>\n  <li><h3>Mächtige CSS-Selektoren und ihre Anwendung.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>DOM-Manipulation und CSS</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"manipulation-section\">\n    <h1 class=\"main-title\">DOM-Manipulation und CSS</h1>\n    <p class=\"section-description\">Erfahren Sie, wie Sie das DOM manipulieren und leistungsstarke CSS-Selektoren effektiv einsetzen können.</p>\n    <ul class=\"point-list\">\n      <li class=\"point\">DOM-Manipulation</li>\n      <li class=\"point\">Mächtige CSS-Selektoren</li>\n    </ul>\n  </section>\n</body>\n</html>",
+      "css": "\n.manipulation-section {\n  background-color: #2ecc71;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-style: italic;\n}",
+      "js": "",
+      "script": "Die Manipulation des Document Object Models (DOM) ist entscheidend. Nutzen Sie leistungsstarke CSS-Selektoren für effektives Styling."
+    },
+    {
+      "title": "Slide 4 - Unterschied zwischen ID und Klasse",
+      "inhalt": "<ul>\n  <li><h3>IDs sind eindeutig, Klassen können mehrfach verwendet werden.</h3></li>\n  <li><h3>IDs haben eine höhere Spezifität als Klassen.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unterschied zwischen ID und Klasse</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <div id=\"header\" class=\"element\">\n    <h1 class=\"title\">Webseitenüberschrift</h1>\n  </div>\n  <ul class=\"point-list\">\n    <li class=\"point\">IDs sind eindeutig, Klassen können mehrfach verwendet werden.</li>\n    <li class=\"point\">IDs haben eine höhere Spezifität als Klassen.</li>\n  </ul>\n</body>\n</html>",
+      "css": "\n#header {\n  background-color: #333;\n  color: #fff;\n  padding: 20px;\n}\n.element {\n  margin-bottom: 20px;\n}\n.title {\n  font-size: 24px;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-size: 18px;\n  margin-bottom: 10px;\n}",
+      "js": "",
+      "script": "Ein wichtiger Aspekt beim Stylen von Webseiten ist der Unterschied zwischen IDs und Klassen. IDs sind eindeutig und haben eine höhere Spezifität. Klassen können dagegen mehrfach verwendet werden. Das beeinflusst, wie wir Elemente gezielt ansprechen und gestalten können."
+    },
+    {
+      "title": "Slide 5 - Warum man !important vermeiden sollte",
+      "inhalt": "<ul>\n  <li><h3>Verwendung von !important sollte vermieden werden.</h3></li>\n  <li><h3>Es macht den Code schwerer zu pflegen und verletzt das Prinzip der Spezifität.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Vermeidung von !important</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <!-- Inhalte der Webseite -->\n  <section class=\"important-section\">\n    <ul class=\"point-list\">\n      <li class=\"point\">Verwendung von !important sollte vermieden werden.</li>\n      <li class=\"point\">Es macht den Code schwerer zu pflegen und verletzt das Prinzip der Spezifität.</li>\n    </ul>\n  </section>\n</body>\n</html>",
+      "css": "\n.important-section {\n  background-color: #3498db;\n  color: #fff;\n  padding: 30px;\n  text-align: center;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-size: 18px;\n  margin-bottom: 10px;\n}",
+      "js": "",
+      "script": "Es ist ratsam, die Verwendung von !important zu vermeiden. Obwohl es manchmal notwendig sein kann, macht es den Code schwerer pflegbar und kann das Prinzip der Spezifität verletzen."
+    },
+
+  {
+    "title": "Slide 6 - Mobile-First Designprinzipien",
+    "inhalt": "<ul>\n  <li><h3>Mobile-First-Ansatz für responsives Design.</h3></li>\n  <li><h3>Bedeutung von Benutzererfahrung auf mobilen Geräten.</h3></li>\n  <li><h3>Optimierung von Ladezeiten für mobile Endgeräte.</h3></li>\n</ul>",
+    "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Mobile-First Designprinzipien</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"mobile-section\">\n    <h1 class=\"main-title\">Mobile-First Designprinzipien</h1>\n    <p class=\"section-description\">Entwickeln Sie Websites mit Fokus auf mobile Geräte für eine optimale Benutzererfahrung.</p>\n    <ul class=\"point-list\">\n      <li class=\"point\">Mobile-First-Ansatz für responsives Design.</li>\n      <li class=\"point\">Bedeutung von Benutzererfahrung auf mobilen Geräten.</li>\n      <li class=\"point\">Optimierung von Ladezeiten für mobile Endgeräte.</li>\n    </ul>\n  </section>\n</body>\n</html>",
+    "css": "\n.mobile-section {\n  background-color: #2ecc71;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-style: italic;\n}",
+    "js": "",
+    "script": "Mobile-First Designprinzipien sind entscheidend für eine optimale Benutzererfahrung. Fokussieren Sie sich auf die Entwicklung für mobile Geräte und optimieren Sie die Ladezeiten."
+  },
+  {
+    "title": "Slide 7 - @media Queries und Responsive Gestaltung",
+    "inhalt": "<ul>\n  <li><h3>Verwendung von @media-Abfragen für responsives Design.</h3></li>\n  <li><h3>Anpassung von Layouts für verschiedene Bildschirmgrößen.</h3></li>\n</ul>",
+    "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>@media Queries und Responsive Gestaltung</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"media-query-section\">\n    <h1 class=\"main-title\">@media Queries und Responsive Gestaltung</h1>\n    <p class=\"section-description\">Passen Sie Ihre Website-Layouts mit @media-Abfragen an verschiedene Bildschirmgrößen an.</p>\n    <ul class=\"point-list\">\n      <li class=\"point\">Verwendung von @media-Abfragen für responsives Design.</li>\n      <li class=\"point\">Anpassung von Layouts für verschiedene Bildschirmgrößen.</li>\n    </ul>\n  </section>\n</body>\n</html>",
+    "css": "\n.media-query-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-style: italic;\n}",
+    "js": "",
+    "script": "Nutzen Sie @media-Abfragen, um Ihre Website für verschiedene Bildschirmgrößen zu optimieren. Die responsive Gestaltung ist entscheidend für eine konsistente Benutzererfahrung."
+  },
+  {
+    "title": "Slide 8 - SCSS und Mixins",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS (Sassy CSS).</h3></li>\n  <li><h3>Nutzung von Mixins für wiederverwendbare Styles.</h3></li>\n</ul>",
+    "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>SCSS und Mixins</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"scss-section\">\n    <h1 class=\"main-title\">SCSS und Mixins</h1>\n    <p class=\"section-description\">Erforschen Sie die Vorteile von SCSS und verwenden Sie Mixins für wiederverwendbare Styles.</p>\n    <ul class=\"point-list\">\n      <li class=\"point\">Einführung in SCSS (Sassy CSS).</li>\n      <li class=\"point\">Nutzung von Mixins für wiederverwendbare Styles.</li>\n    </ul>\n  </section>\n</body>\n</html>",
+    "css": "\n@import 'mixin';\n\n.scss-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.point-list {\n  list-style-type: none;\n  padding: 0;\n}\n.point {\n  font-style: italic;\n}",
+    "js": "",
+    "script": "SCSS (Sassy CSS) bietet erweiterte Funktionen für die Stylesheet-Entwicklung. Entdecken Sie die Vorteile von SCSS und wie Sie Mixins für wiederverwendbare Styles nutzen können."
+  },
+  {
+    "title": "Slide 8 - SCSS und Mixins",
+    "inhalt": "<ul>\n  <li><h3>Einführung in SCSS (Sassy CSS).</h3></li>\n  <li><h3>Nutzung von Mixins für fortschrittliche Styles.</h3></li>\n</ul>",
+    "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>SCSS und Mixins</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"scss-section\">\n    <h1 class=\"main-title\">SCSS und Mixins</h1>\n    <p class=\"section-description\">Erforschen Sie die Vorteile von SCSS und verwenden Sie Mixins für fortschrittliche und wiederverwendbare Styles.</p>\n    <div class=\"example-container\">\n      <div class=\"box box1\"></div>\n      <div class=\"box box2\"></div>\n      <div class=\"box box3\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+    "css": "\n@import 'mixin';\n\n.scss-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}\n.box1 {\n  @include box-style(#3498db);\n}\n.box2 {\n  @include box-style(#2ecc71);\n}\n.box3 {\n  @include box-style(#f39c12);\n}",
+    "js": "",
+    "script": "SCSS (Sassy CSS) bietet erweiterte Funktionen für die Stylesheet-Entwicklung. Entdecken Sie die Vorteile von SCSS und wie Sie Mixins für fortschrittliche und wiederverwendbare Styles nutzen können."
+  },
+    {
+      "title": "Slide 12 - Kombination von Selektoren",
+      "inhalt": "<ul>\n  <li><h3>Verwendung von kombinierten Selektoren.</h3></li>\n  <li><h3>Auswirkungen auf die CSS-Spezifität.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Kombination von Selektoren</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"selector-combination-section\">\n    <h1 class=\"main-title\">Kombination von Selektoren</h1>\n    <p class=\"section-description\">Erfahren Sie, wie kombinierte Selektoren die CSS-Spezifität beeinflussen.</p>\n    <div class=\"example-container\">\n      <div class=\"box box1\"></div>\n      <div class=\"box box2\"></div>\n      <div class=\"box box3\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n.selector-combination-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: #e74c3c;\n}\n.box2.box3 {\n  background-color: #2ecc71;\n}",
+      "js": "",
+      "script": "Kombinierte Selektoren können die CSS-Spezifität beeinflussen. Lernen Sie, wie verschiedene Selektoren miteinander interagieren."
+    },
+    {
+      "title": "Slide 13 - Inline-Styles vs. Externe Styles",
+      "inhalt": "<ul>\n  <li><h3>Vergleich von Inline-Styles und externen Styles.</h3></li>\n  <li><h3>Auswirkungen auf die Spezifität.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Inline-Styles vs. Externe Styles</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"style-comparison-section\">\n    <h1 class=\"main-title\">Inline-Styles vs. Externe Styles</h1>\n    <p class=\"section-description\">Untersuchen Sie den Unterschied zwischen Inline-Styles und externen Styles und deren Auswirkungen auf die CSS-Spezifität.</p>\n    <div class=\"example-container\">\n      <div id=\"unique-box\" style=\"background-color: #f39c12;\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n.style-comparison-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n#unique-box {\n  width: 100px;\n  height: 100px;\n}",
+      "js": "",
+      "script": "Der Vergleich zwischen Inline-Styles und externen Styles zeigt, wie unterschiedliche Methoden die CSS-Spezifität beeinflussen können."
+    },
+    {
+      "title": "Slide 14 - Anwendung von !important",
+      "inhalt": "<ul>\n  <li><h3>Erklärung der !important-Regel.</h3></li>\n  <li><h3>Auswirkungen auf die Spezifität.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Anwendung von !important</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"important-rule-section\">\n    <h1 class=\"main-title\">Anwendung von !important</h1>\n    <p class=\"section-description\">Erfahren Sie, wie die !important-Regel die CSS-Spezifität beeinflusst und wann sie angemessen ist.</p>\n    <div class=\"example-container\">\n      <div id=\"important-box\" class=\"important-box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n.important-rule-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n#important-box {\n  width: 100px;\n  height: 100px;\n}\n.important-box {\n  background-color: #2ecc71 !important;\n}",
+      "js": "",
+      "script": "Die !important-Regel kann die CSS-Spezifität übergehen. Verstehen Sie, wann diese Regel angemessen ist und wann sie vermieden werden sollte."
+    },
+    {
+      "title": "Slide 15 - Praktische Tipps zur Spezifität",
+      "inhalt": "<ul>\n  <li><h3>Best Practices für die Vermeidung von Spezifitätskonflikten.</h3></li>\n  <li><h3>Strukturiertes Arbeiten mit CSS.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Praktische Tipps zur Spezifität</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n  <section class=\"specificity-tips-section\">\n    <h1 class=\"main-title\">Praktische Tipps zur Spezifität</h1>\n    <p class=\"section-description\">Erhalten Sie praktische Tipps für die Vermeidung von Spezifitätskonflikten und strukturiertes Arbeiten mit CSS.</p>\n    <div class=\"example-container\">\n      <div class=\"box box1\"></div>\n      <div class=\"box box2\"></div>\n      <div class=\"box box3\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n.specificity-tips-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: #3498db;\n}\n.box2, .box3 {\n  background-color: #f39c12;\n}",
+      "js": "",
+      "script": "Erhalten Sie praktische Tipps, wie Sie Spezifitätskonflikte vermeiden und strukturiert mit CSS arbeiten können."
+    },
+    {
+      "title": "Slide 16 - Einführung in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Was ist SCSS?</h3></li>\n  <li><h3>Vorteile von SCSS gegenüber reinem CSS.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Einführung in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"scss-introduction-section\">\n    <h1 class=\"main-title\">Einführung in SCSS</h1>\n    <p class=\"section-description\">Erfahren Sie, was SCSS ist, und entdecken Sie die Vorteile gegenüber reinem CSS.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'mixin';\n\n.scss-introduction-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  @include box-style(#e74c3c);\n}",
+      "js": "",
+      "script": "SCSS (Sassy CSS) bietet erweiterte Funktionen und Vorteile gegenüber reinem CSS. Erfahren Sie, wie SCSS Ihre Stylesheet-Entwicklung verbessern kann."
+    },
+    {
+      "title": "Slide 17 - Variablen und Nesting in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Nutzung von Variablen in SCSS.</h3></li>\n  <li><h3>Verschachtelung von Selektoren.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Variablen und Nesting in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"variables-nesting-section\">\n    <h1 class=\"main-title\">Variablen und Nesting in SCSS</h1>\n    <p class=\"section-description\">Entdecken Sie die Vorteile von Variablen und das Verschachteln von Selektoren in SCSS.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'mixin';\n\n.variables-nesting-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  @include box-style(#3498db);\n}\n.variables-nesting-section {\n  background-color: #2ecc71;\n  .box {\n    @include box-style(#f39c12);\n  }\n}",
+      "js": "",
+      "script": "SCSS ermöglicht die Nutzung von Variablen und das Verschachteln von Selektoren, um den Code übersichtlicher und wiederverwendbarer zu gestalten."
+    },
+    {
+      "title": "Slide 18 - Mixins und Funktionen in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Verwendung von Mixins für wiederverwendbare Styles.</h3></li>\n  <li><h3>Einführung in Funktionen in SCSS.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Mixins und Funktionen in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"mixins-functions-section\">\n    <h1 class=\"main-title\">Mixins und Funktionen in SCSS</h1>\n    <p class=\"section-description\">Erfahren Sie, wie Sie Mixins für wiederverwendbare Styles verwenden und erhalten Sie eine Einführung in Funktionen in SCSS.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'mixin';\n\n.mixins-functions-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  @include advanced-box-style;\n}",
+      "js": "",
+      "script": "SCSS ermöglicht die Verwendung von Mixins für wiederverwendbare Styles und bietet Funktionen zur weiteren Verbesserung der Stylesheet-Entwicklung."
+    },
+    {
+      "title": "Slide 19 - Media Queries und SCSS",
+      "inhalt": "<ul>\n  <li><h3>Responsive Designs mit Media Queries.</h3></li>\n  <li><h3>Nutzung von SCSS für effizientes Styling verschiedener Bildschirmgrößen.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Media Queries und SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"media-queries-scss-section\">\n    <h1 class=\"main-title\">Media Queries und SCSS</h1>\n    <p class=\"section-description\">Erfahren Sie, wie Sie mit Media Queries responsive Designs erstellen und SCSS für effizientes Styling verschiedener Bildschirmgrößen nutzen können.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@media only screen and (max-width: 600px) {\n  .media-queries-scss-section {\n    background-color: #e74c3c;\n  }\n}\n\n@media only screen and (min-width: 601px) and (max-width: 900px) {\n  .media-queries-scss-section {\n    background-color: #2ecc71;\n  }\n}\n\n@media only screen and (min-width: 901px) {\n  .media-queries-scss-section {\n    background-color: #f39c12;\n  }\n}\n\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  @include box-style(#3498db);\n}",
+      "js": "",
+      "script": "Erfahren Sie, wie Sie mit Media Queries responsive Designs erstellen und SCSS für effizientes Styling verschiedener Bildschirmgrößen nutzen können."
+    },
+    {
+      "title": "Slide 20 - Fortgeschrittene Funktionen in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Nutzung fortgeschrittener Funktionen in SCSS.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Fortgeschrittene Funktionen in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"advanced-functions-section\">\n    <h1 class=\"main-title\">Fortgeschrittene Funktionen in SCSS</h1>\n    <p class=\"section-description\">Erfahren Sie, wie Sie fortgeschrittene Funktionen in SCSS nutzen können, und entdecken Sie die Vorteile anhand von Anwendungsbeispielen.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'functions';\n\n.advanced-functions-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: @get-random-color();\n}",
+      "js": "",
+      "script": "Entdecken Sie die Möglichkeiten fortgeschrittener Funktionen in SCSS und erfahren Sie, wie sie Ihre Stylesheet-Entwicklung verbessern können."
+    },
+    {
+        "title": "Slide 20 - Fortgeschrittene Funktionen in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Nutzung fortgeschrittener Funktionen in SCSS.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Fortgeschrittene Funktionen in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"advanced-functions-section\">\n    <div class=\"container\">\n      <h1 class=\"main-title\">Fortgeschrittene Funktionen in SCSS</h1>\n      <p class=\"section-description\">Entdecken Sie die Möglichkeiten fortgeschrittener Funktionen in SCSS und erfahren Sie, wie sie Ihre Stylesheet-Entwicklung verbessern können.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'functions';\n\n.advanced-functions-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.main-title {\n  text-decoration: underline;\n}\n.section-description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}",
+        "js": "",
+        "script": "Entdecken Sie die Möglichkeiten fortgeschrittener Funktionen in SCSS und erfahren Sie, wie sie Ihre Stylesheet-Entwicklung verbessern können."
+      },
+    {
+      "title": "Slide 21 - Unterschied zwischen Funktion und Mixin in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Vergleich von Funktionen und Mixins in SCSS.</h3></li>\n  <li><h3>Wann sollte man eine Funktion gegenüber einem Mixin bevorzugen?</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unterschied zwischen Funktion und Mixin</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"function-vs-mixin-section\">\n    <h1 class=\"main-title\">Unterschied zwischen Funktion und Mixin</h1>\n    <p class=\"section-description\">Vergleichen Sie Funktionen und Mixins in SCSS und erfahren Sie, wann Sie eine Funktion einem Mixin vorziehen sollten.</p>\n    <div class=\"example-container\">\n      <div class=\"box\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'functions';\n\n.function-vs-mixin-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.main-title {\n  color: #fff;\n  text-decoration: underline;\n}\n.section-description {\n  color: #fff;\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: @get-random-color();\n}\n.function-vs-mixin-section .box {\n  @include box-style;\n}",
+      "js": "",
+      "script": "Vergleichen Sie Funktionen und Mixins in SCSS und verstehen Sie, wann die Verwendung einer Funktion gegenüber einem Mixin sinnvoll ist."
+    },
+    {
+        "title": "Slide 21 - Unterschied zwischen Funktion und Mixin in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Vergleich von Funktionen und Mixins in SCSS.</h3></li>\n  <li><h3>Wann sollte man eine Funktion gegenüber einem Mixin bevorzugen?</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unterschied zwischen Funktion und Mixin</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"function-vs-mixin-section\">\n    <div class=\"container\">\n      <h1 class=\"main-title\">Unterschied zwischen Funktion und Mixin</h1>\n      <p class=\"section-description\">Vergleichen Sie Funktionen und Mixins in SCSS und erfahren Sie, wann Sie eine Funktion einem Mixin vorziehen sollten.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'functions';\n\n.function-vs-mixin-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.main-title {\n  text-decoration: underline;\n}\n.section-description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}\n.function-vs-mixin-section .box {\n  @include box-style;\n}",
+        "js": "",
+        "script": "Vergleichen Sie Funktionen und Mixins in SCSS und verstehen Sie, wann die Verwendung einer Funktion gegenüber einem Mixin sinnvoll ist."
+      },
+      {
+        "title": "Slide 22 - Kreative Navigation mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Erstellung einer kreativen Navigation.</h3></li>\n  <li><h3>Verwendung von SCSS für stilvolle Effekte.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Kreative Navigation mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"creative-navigation-section\">\n    <div class=\"container\">\n      <h1 class=\"main-title\">Kreative Navigation mit SCSS</h1>\n      <p class=\"section-description\">Erstellen Sie eine kreative Navigation und verwenden Sie SCSS, um stilvolle Effekte zu erzielen.</p>\n      <nav class=\"navigation\">\n        <a href=\"#\">Start</a>\n        <a href=\"#\">Über uns</a>\n        <a href=\"#\">Dienstleistungen</a>\n        <a href=\"#\">Kontakt</a>\n      </nav>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'effects';\n\n.creative-navigation-section {\n  background-color: #2ecc71;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.main-title {\n  text-decoration: underline;\n}\n.section-description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.navigation {\n  display: flex;\n  justify-content: space-around;\n  margin-top: 20px;\n}\n.navigation a {\n  color: #fff;\n  text-decoration: none;\n  font-weight: bold;\n}\n.navigation a:hover {\n  @include hover-effect;\n}",
+        "js": "",
+        "script": "Erstellen Sie eine kreative Navigation und verwenden Sie SCSS, um stilvolle Effekte zu erzielen."
+      },
+      {
+        "title": "Slide 23 - Interaktive Bildergalerie mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Entwicklung einer interaktiven Bildergalerie.</h3></li>\n  <li><h3>Nutzung von SCSS für animierte Übergänge.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Interaktive Bildergalerie mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"interactive-gallery-section\">\n    <div class=\"container\">\n      <h1 class=\"main-title\">Interaktive Bildergalerie mit SCSS</h1>\n      <p class=\"section-description\">Entwickeln Sie eine interaktive Bildergalerie und nutzen Sie SCSS für animierte Übergänge.</p>\n      <div class=\"gallery\">\n        <img src=\"image1.jpg\" alt=\"Bild 1\">\n        <img src=\"image2.jpg\" alt=\"Bild 2\">\n        <img src=\"image3.jpg\" alt=\"Bild 3\">\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'transitions';\n\n.interactive-gallery-section {\n  background-color: #f39c12;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.main-title {\n  text-decoration: underline;\n}\n.section-description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.gallery {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.gallery img {\n  width: 150px;\n  height: 100px;\n  object-fit: cover;\n  @include image-transition;\n}",
+        "js": "",
+        "script": "Entwickeln Sie eine interaktive Bildergalerie und nutzen Sie SCSS für animierte Übergänge."
+      },
+      {
+        "title": "Slide 24 - CSS-Kunst: Erstellung von 3D-Effekten",
+        "inhalt": "<ul>\n  <li><h3>Erstellung von beeindruckenden 3D-Effekten mit reinem CSS.</h3></li>\n  <li><h3>Einblick in die Welt der CSS-Kunst.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CSS-Kunst: Erstellung von 3D-Effekten</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"css-art-section\">\n    <div class=\"container\">\n      <h1 class=\"main-title\">CSS-Kunst: Erstellung von 3D-Effekten</h1>\n      <p class=\"section-description\">Erstellen Sie beeindruckende 3D-Effekte mit reinem CSS und tauchen Sie ein in die faszinierende Welt der CSS-Kunst.</p>\n      <div class=\"artwork\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'css-art';\n\n.css-art-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.main-title {\n  text-decoration: underline;\n}\n.section-description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.artwork {\n  width: 200px;\n  height: 200px;\n  @include css-art-effect;\n}",
+        "js": "",
+        "script": "Erstellen Sie beeindruckende 3D-Effekte mit reinem CSS und tauchen Sie ein in die faszinierende Welt der CSS-Kunst."
+      },
+      {
+        "title": "Slide 20 - Fortgeschrittene Funktionen in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Nutzung fortgeschrittener Funktionen in SCSS.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Fortgeschrittene Funktionen in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"advanced-functions-section\">\n    <div class=\"container\">\n      <div class=\"title\">Entdecken Sie fortgeschrittene SCSS-Funktionen</div>\n      <p class=\"description\">Eine Reise durch die Welt der fortgeschrittenen Funktionen in SCSS und deren Vorteile mit realen Anwendungsbeispielen.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'functions';\n\n.advanced-functions-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}",
+        "js": "",
+        "script": "In dieser Session tauchen wir ein in die fortgeschrittenen Funktionen von SCSS und entdecken ihre Vorteile durch praktische Beispiele."
+      },
+      {
+        "title": "Slide 21 - Unterschied zwischen Funktion und Mixin in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Vergleich von Funktionen und Mixins in SCSS.</h3></li>\n  <li><h3>Wann sollte man eine Funktion gegenüber einem Mixin bevorzugen?</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unterschied zwischen Funktion und Mixin</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"function-vs-mixin-section\">\n    <div class=\"container\">\n      <div class=\"title\">Die Feinheiten: Funktionen vs. Mixins in SCSS</div>\n      <p class=\"description\">Ein tiefgehender Vergleich zwischen Funktionen und Mixins in SCSS und die Entscheidungskriterien für ihre Verwendung.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'functions';\n\n.function-vs-mixin-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}\n.function-vs-mixin-section .box {\n  @include box-style;\n}",
+        "js": "",
+        "script": "Tauchen Sie ein in die Feinheiten von SCSS, indem wir die Unterschiede zwischen Funktionen und Mixins erkunden und wann Sie welche verwenden sollten."
+      },
+      {
+        "title": "Slide 22 - Kreative Navigation mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Erstellung einer kreativen Navigation.</h3></li>\n  <li><h3>Verwendung von SCSS für stilvolle Effekte.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Kreative Navigation mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"creative-navigation-section\">\n    <div class=\"container\">\n      <div class=\"title\">Kreative Navigation mit SCSS</div>\n      <p class=\"description\">Erschaffen Sie eine kreative Navigation und setzen Sie SCSS ein, um stilvolle Effekte und Animationen zu integrieren.</p>\n      <nav class=\"navigation\">\n        <a href=\"#\">Start</a>\n        <a href=\"#\">Über uns</a>\n        <a href=\"#\">Dienstleistungen</a>\n        <a href=\"#\">Kontakt</a>\n      </nav>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'effects';\n\n.creative-navigation-section {\n  background-color: #2ecc71;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.navigation {\n  display: flex;\n  justify-content: space-around;\n  margin-top: 20px;\n}\n.navigation a {\n  color: #fff;\n  text-decoration: none;\n  font-weight: bold;\n}\n.navigation a:hover {\n  @include hover-effect;\n}",
+        "js": "",
+        "script": "Entdecken Sie die Welt der kreativen Navigation und erfahren Sie, wie SCSS Ihnen hilft, stilvolle Effekte zu integrieren."
+      },
+      {
+        "title": "Slide 23 - Interaktive Bildergalerie mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Entwicklung einer interaktiven Bildergalerie.</h3></li>\n  <li><h3>Nutzung von SCSS für animierte Übergänge.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Interaktive Bildergalerie mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"interactive-gallery-section\">\n    <div class=\"container\">\n      <div class=\"title\">Interaktive Bildergalerie mit SCSS</div>\n      <p class=\"description\">Entwickeln Sie eine interaktive Bildergalerie und nutzen Sie SCSS, um faszinierende animierte Übergänge zwischen den Bildern zu gestalten.</p>\n      <div class=\"gallery\">\n        <img src=\"image1.jpg\" alt=\"Bild 1\">\n        <img src=\"image2.jpg\" alt=\"Bild 2\">\n        <img src=\"image3.jpg\" alt=\"Bild 3\">\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'transitions';\n\n.interactive-gallery-section {\n  background-color: #f39c12;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.gallery {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.gallery img {\n  width: 150px;\n  height: 100px;\n  object-fit: cover;\n  @include image-transition;\n}",
+        "js": "",
+        "script": "Tauchen Sie ein in die Entwicklung einer interaktiven Bildergalerie und lernen Sie, wie SCSS animierte Übergänge ermöglicht."
+      },
+      {
+        "title": "Slide 24 - CSS-Kunst: Erstellung von 3D-Effekten",
+        "inhalt": "<ul>\n  <li><h3>Erstellung von beeindruckenden 3D-Effekten mit reinem CSS.</h3></li>\n  <li><h3>Einblick in die Welt der CSS-Kunst.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CSS-Kunst: Erstellung von 3D-Effekten</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"css-art-section\">\n    <div class=\"container\">\n      <div class=\"title\">CSS-Kunst: Erschaffung beeindruckender 3D-Effekte</div>\n      <p class=\"description\">Entdecken Sie die Magie von CSS-Kunst durch die Erstellung beeindruckender 3D-Effekte, die allein mit CSS möglich sind.</p>\n      <div class=\"artwork\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'css-art';\n\n.css-art-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.artwork {\n  width: 200px;\n  height: 200px;\n  @include css-art-effect;\n}",
+        "js": "",
+        "script": "Tauchen Sie ein in die Welt der CSS-Kunst und erfahren Sie, wie beeindruckende 3D-Effekte allein mit CSS erstellt werden können."
+      },
+      {
+        "title": "Slide 25 - Mastering CSS: Tipps und Tricks",
+        "inhalt": "<ul>\n  <li><h3>Meisterung von CSS mit fortgeschrittenen Tipps und Tricks.</h3></li>\n  <li><h3>Geheime Techniken zur effizienten Stylesheet-Entwicklung.</h3></li>\n</ul>",
+        "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Mastering CSS: Tipps und Tricks</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"mastering-css-section\">\n    <div class=\"container\">\n      <div class=\"title\">Meistern Sie CSS: Fortgeschrittene Tipps und Tricks</div>\n      <p class=\"description\">Erfahren Sie, wie Sie CSS meistern können, indem Sie fortgeschrittene Tipps und Tricks sowie geheime Techniken zur effizienten Stylesheet-Entwicklung nutzen.</p>\n      <div class=\"tips-container\">\n        <div class=\"tip\">\n          <h3>Tipp 1</h3>\n          <p>Optimierung von Selektoren für bessere Performance.</p>\n        </div>\n        <div class=\"tip\">\n          <h3>Tipp 2</h3>\n          <p>Verwendung von Flexbox und Grid für dynamisches Layout.</p>\n        </div>\n        <div class=\"tip\">\n          <h3>Tipp 3</h3>\n          <p>Integration von benutzerdefinierten Schriftarten für einzigartige Designs.</p>\n        </div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+        "css": "\n@import 'tips-tricks';\n\n.mastering-css-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.tips-container {\n  display: flex;\n  justify-content: space-around;\n  margin-top: 20px;\n}\n.tip {\n  text-align: left;\n  padding: 10px;\n  background-color: #fff;\n  border-radius: 5px;\n  margin: 0 10px;\n}\n.tip h3 {\n  color: #e74c3c;\n}\n.tip p {\n  color: #333;\n}",
+        "js": "",
+        "script": "Meistern Sie CSS mit fortgeschrittenen Tipps und Tricks sowie geheime Techniken zur effizienten Stylesheet-Entwicklung."
+      },
+    {
+      "title": "Slide 20 - Fortgeschrittene Funktionen in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Nutzung fortgeschrittener Funktionen in SCSS.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Fortgeschrittene Funktionen in SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"advanced-functions-section\">\n    <div class=\"container\">\n      <div class=\"title\">Die Magie hinter dynamischen Farbfunktionen</div>\n      <p class=\"description\">Erkunden Sie, wie fortgeschrittene Funktionen in SCSS nicht nur Farben generieren, sondern Ihre Stylesheet-Entwicklung auf ein neues Level heben.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'functions';\n\n.advanced-functions-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}",
+      "js": "",
+      "script": "In dieser Session tauchen wir ein in die fortgeschrittenen Funktionen von SCSS und entdecken ihre Vorteile durch praktische Beispiele."
+    },
+    {
+      "title": "Slide 21 - Unterschied zwischen Funktion und Mixin in SCSS",
+      "inhalt": "<ul>\n  <li><h3>Vergleich von Funktionen und Mixins in SCSS.</h3></li>\n  <li><h3>Wann sollte man eine Funktion gegenüber einem Mixin bevorzugen?</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unterschied zwischen Funktion und Mixin</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"function-vs-mixin-section\">\n    <div class=\"container\">\n      <div class=\"title\">Kochen mit SCSS: Funktionen als Gewürze, Mixins als Rezepte</div>\n      <p class=\"description\">Ein tiefgehender Vergleich zwischen Funktionen und Mixins in SCSS und die Entscheidungskriterien für ihre Verwendung.</p>\n      <div class=\"example-container\">\n        <div class=\"box\" style=\"background-color: @get-random-color();\"></div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'functions';\n\n.function-vs-mixin-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example-container {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n}\n.function-vs-mixin-section .box {\n  @include box-style;\n}",
+      "js": "",
+      "script": "Tauchen Sie ein in die Feinheiten von SCSS, indem wir die Unterschiede zwischen Funktionen und Mixins erkunden und wann Sie welche verwenden sollten."
+    },
+    {
+      "title": "Slide 22 - Kreative Navigation mit SCSS",
+      "inhalt": "<ul>\n  <li><h3>Erstellung einer kreativen Navigation.</h3></li>\n  <li><h3>Verwendung von SCSS für stilvolle Effekte.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Kreative Navigation mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"creative-navigation-section\">\n    <div class=\"container\">\n      <div class=\"title\">Vom Autorennen inspiriert: Kreative Navigation mit SCSS</div>\n      <p class=\"description\">Erschaffen Sie eine kreative Navigation und setzen Sie SCSS ein, um stilvolle Effekte und Animationen zu integrieren.</p>\n      <nav class=\"navigation\">\n        <a href=\"#\">Start</a>\n        <a href=\"#\">Über uns</a>\n        <a href=\"#\">Dienstleistungen</a>\n        <a href=\"#\">Kontakt</a>\n      </nav>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'effects';\n\n.creative-navigation-section {\n  background-color: #2ecc71;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.navigation {\n  display: flex;\n  justify-content: space-around;\n  margin-top: 20px;\n}\n.navigation a {\n  color: #fff;\n  text-decoration: none;\n  font-weight: bold;\n}\n.navigation a:hover {\n  @include hover-effect;\n}",
+      "js": "",
+      "script": "Lassen Sie sich von einem Autorennen inspirieren und lernen Sie, wie Sie eine kreative Navigation mit SCSS und stilvollen Effekten erstellen."
+    },
+    {
+      "title": "Slide 23 - Interaktive Bildergalerie mit SCSS",
+      "inhalt": "<ul>\n  <li><h3>Entwicklung einer interaktiven Bildergalerie.</h3></li>\n  <li><h3>Nutzung von SCSS für animierte Übergänge.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Interaktive Bildergalerie mit SCSS</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"interactive-gallery-section\">\n    <div class=\"container\">\n      <div class=\"title\">Bild für Bild: Interaktive Galerie mit SCSS</div>\n      <p class=\"description\">Entwickeln Sie eine interaktive Bildergalerie und nutzen Sie SCSS, um faszinierende animierte Übergänge zwischen den Bildern zu gestalten.</p>\n      <div class=\"gallery\">\n        <img src=\"image1.jpg\" alt=\"Bild 1\">\n        <img src=\"image2.jpg\" alt=\"Bild 2\">\n        <img src=\"image3.jpg\" alt=\"Bild 3\">\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'transitions';\n\n.interactive-gallery-section {\n  background-color: #f39c12;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.gallery {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 20px;\n}\n.gallery img {\n  width: 150px;\n  height: 100px;\n  object-fit: cover;\n  @include image-transition;\n}",
+      "js": "",
+      "script": "Tauchen Sie ein in die Entwicklung einer interaktiven Bildergalerie und lernen Sie, wie SCSS animierte Übergänge ermöglicht."
+    },
+    {
+      "title": "Slide 24 - CSS-Kunst: Erstellung von 3D-Effekten",
+      "inhalt": "<ul>\n  <li><h3>Erstellung von beeindruckenden 3D-Effekten mit reinem CSS.</h3></li>\n  <li><h3>Einblick in die Welt der CSS-Kunst.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>CSS-Kunst: Erstellung von 3D-Effekten</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"css-art-section\">\n    <div class=\"container\">\n      <div class=\"title\">Magische Illusionen: CSS-Kunst mit beeindruckenden 3D-Effekten</div>\n      <p class=\"description\">Entdecken Sie die Magie von CSS-Kunst durch die Erstellung beeindruckender 3D-Effekte, die allein mit CSS möglich sind.</p>\n      <div class=\"artwork\"></div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'css-art';\n\n.css-art-section {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.artwork {\n  width: 200px;\n  height: 200px;\n  @include css-art-effect;\n}",
+      "js": "",
+      "script": "Tauchen Sie ein in die Welt der CSS-Kunst und erfahren Sie, wie beeindruckende 3D-Effekte allein mit CSS erstellt werden können."
+    },
+    {
+      "title": "Slide 25 - Mastering CSS: Tipps und Tricks",
+      "inhalt": "<ul>\n  <li><h3>Meisterung von CSS mit fortgeschrittenen Tipps und Tricks.</h3></li>\n  <li><h3>Geheime Techniken zur effizienten Stylesheet-Entwicklung.</h3></li>\n</ul>",
+      "html": "\n<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Mastering CSS: Tipps und Tricks</title>\n  <link rel=\"stylesheet\" href=\"styles.scss\">\n</head>\n<body>\n  <section class=\"mastering-css-section\">\n    <div class=\"container\">\n      <div class=\"title\">Meistern Sie CSS: Fortgeschrittene Tipps und Tricks</div>\n      <p class=\"description\">Erfahren Sie, wie Sie CSS meistern können, indem Sie fortgeschrittene Tipps und Tricks sowie geheime Techniken zur effizienten Stylesheet-Entwicklung nutzen.</p>\n      <div class=\"tips-container\">\n        <div class=\"tip\">\n          <h3>Tipp 1</h3>\n          <p>Optimierung von Selektoren für bessere Performance.</p>\n        </div>\n        <div class=\"tip\">\n          <h3>Tipp 2</h3>\n          <p>Verwendung von Flexbox und Grid für dynamisches Layout.</p>\n        </div>\n        <div class \"tip\">\n          <h3>Tipp 3</h3>\n          <p>Integration von benutzerdefinierten Schriftarten für einzigartige Designs.</p>\n        </div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>",
+      "css": "\n@import 'tips-tricks';\n\n.mastering-css-section {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n}\n.container {\n  color: #fff;\n}\n.title {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.description {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.tips-container {\n  display: flex;\n  justify-content: space-around;\n  margin-top: 20px;\n}\n.tip {\n  text-align: left;\n  padding: 10px;\n  background-color: #fff;\n  border-radius: 5px;\n  margin: 0 10px;\n}\n.tip h3 {\n  color: #e74c3c;\n}\n.tip p {\n  color: #333;\n}",
+      "js": "",
+      "script": "Meistern Sie CSS mit fortgeschrittenen Tipps und Tricks sowie geheime Techniken zur effizienten Stylesheet-Entwicklung."
+    },
+    {
+        "title": "Slide 20 - Fortgeschrittene Funktionen in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Nutzung fortgeschrittener Funktionen in SCSS.</h3></li>\n  <li><h3>Vorteile und Anwendungsbeispiele.</h3></li>\n</ul>",
+        "html": "\n<div class=\"slide-content\">\n  <h2>Die Magie hinter dynamischen Farbfunktionen</h2>\n  <p>Erkunden Sie, wie fortgeschrittene Funktionen in SCSS nicht nur Farben generieren, sondern Ihre Stylesheet-Entwicklung auf ein neues Level heben.</p>\n  <div class=\"example\">\n    <div class=\"box\"></div>\n  </div>\n</div>",
+        "css": "\n@import 'functions';\n\n.slide-content {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: @get-random-color();\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Meistern Sie fortgeschrittene Funktionen in SCSS und bringen Sie mehr Dynamik in Ihre Stylesheets."
+      },
+      {
+        "title": "Slide 21 - Unterschied zwischen Funktion und Mixin in SCSS",
+        "inhalt": "<ul>\n  <li><h3>Vergleich von Funktionen und Mixins in SCSS.</h3></li>\n  <li><h3>Wann sollte man eine Funktion gegenüber einem Mixin bevorzugen?</h3></li>\n</ul>",
+        "html": "\n<div class=\"slide-content\">\n  <h2>Kochen mit SCSS: Funktionen als Gewürze, Mixins als Rezepte</h2>\n  <p>Ein tiefgehender Vergleich zwischen Funktionen und Mixins in SCSS und die Entscheidungskriterien für ihre Verwendung.</p>\n  <div class=\"example\">\n    <div class=\"box\"></div>\n  </div>\n</div>",
+        "css": "\n@import 'functions';\n\n.slide-content {\n  background-color: #e74c3c;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  display: flex;\n  justify-content: center;\n  margin-top: 20px;\n}\n.box {\n  width: 100px;\n  height: 100px;\n  background-color: @get-random-color();\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Erfahren Sie, wann Sie in SCSS Funktionen oder Mixins verwenden sollten, um die optimale Wiederverwendbarkeit zu erreichen."
+      },
+      {
+        "title": "Slide 22 - Semantisches HTML und SCSS: Grundlagen",
+        "inhalt": "<ul>\n  <li><h3>Bedeutung von semantischem HTML für Suchmaschinen und Barrierefreiheit.</h3></li>\n  <li><h3>Verwendung von SCSS zur Verbesserung des Stylesheet-Managements.</h3></li>\n</ul>",
+        "html": "<div class=\"slide-content\">\n  <h2>Die Sprache der Maschinen verstehen</h2>\n  <p>Entdecken Sie, wie semantisches HTML nicht nur Ihre Website für Suchmaschinen optimiert, sondern auch die Barrierefreiheit verbessert. Kombinieren Sie dies mit SCSS, um Ihr Stylesheet effizienter zu gestalten.</p>\n  <section class=\"example\">\n    <header>\n      <h3>Artikelüberschrift</h3>\n      <p>Veröffentlicht am 5. Februar 2024</p>\n    </header>\n    <article>\n      <h1>Willkommen zum Seminar über semantisches HTML und SCSS!</h1>\n      <p>Heute werden wir die Bedeutung von semantischem HTML erkunden und erfahren, wie SCSS unsere Stylesheet-Entwicklung verbessern kann.</p>\n    </article>\n  </section>\n</div>",
+        "css": "\n.slide-content {\n  background-color: #27ae60;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  margin-top: 20px;\n}\n.example header {\n  background-color: #2c3e50;\n  padding: 10px;\n  color: #fff;\n}\n.example article {\n  padding: 20px;\n  border: 1px solid #ecf0f1;\n  background-color: #fff;\n  border-radius: 5px;\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Verstehen Sie, wie semantisches HTML und SCSS in Kombination die Benutzererfahrung verbessern können."
+      },
+      {
+        "title": "Slide 23 - Fortgeschrittene semantische Tags mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Anwendung von fortgeschrittenen semantischen Tags.</h3></li>\n  <li><h3>Styling mit SCSS für eine moderne und attraktive Benutzeroberfläche.</h3></li>\n</ul>",
+        "html": "<div class=\"slide-content\">\n  <h2>Die Zukunft des Webdesigns: Fortgeschrittene semantische Tags</h2>\n  <p>Entdecken Sie die Power von fortgeschrittenen semantischen Tags und wie Sie mit SCSS eine moderne und attraktive Benutzeroberfläche gestalten können.</p>\n  <section class=\"example\">\n    <aside>\n      <h3>Empfohlener Artikel</h3>\n      <p>Lesen Sie unseren neuesten Beitrag über fortschrittliche Webdesign-Techniken.</p>\n    </aside>\n    <main>\n      <h1>Die Zukunft des Webdesigns: Interaktivität und Benutzerfreundlichkeit</h1>\n      <p>Erfahren Sie, wie fortschrittliche semantische Tags das Webdesign revolutionieren und mit SCSS gestylt werden können.</p>\n    </main>\n  </section>\n</div>",
+        "css": "\n.slide-content {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  margin-top: 20px;\n}\n.example aside {\n  background-color: #e74c3c;\n  padding: 10px;\n  color: #fff;\n}\n.example main {\n  padding: 20px;\n  border: 1px solid #ecf0f1;\n  background-color: #fff;\n  border-radius: 5px;\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Tauchen Sie ein in die Welt fortschrittlicher semantischer Tags und erfahren Sie, wie SCSS Ihre Webdesigns auf das nächste Level heben kann."
+      },
+      {
+        "title": "Slide 22 - Semantisches HTML und SCSS: Grundlagen",
+        "inhalt": "<ul>\n  <li><h3>Bedeutung von semantischem HTML für Suchmaschinen und Barrierefreiheit.</h3></li>\n  <li><h3>Verwendung von SCSS zur Verbesserung des Stylesheet-Managements.</h3></li>\n</ul>",
+        "html": "\n<div class=\"slide-content\">\n  <h2>Die Sprache der Maschinen verstehen</h2>\n  <p>Entdecken Sie, wie semantisches HTML nicht nur Ihre Website für Suchmaschinen optimiert, sondern auch die Barrierefreiheit verbessert. Kombinieren Sie dies mit SCSS, um Ihr Stylesheet effizienter zu gestalten.</p>\n  <section class=\"example\">\n    <header>\n      <h3>Artikelüberschrift</h3>\n      <p>Veröffentlicht am 5. Februar 2024</p>\n    </header>\n    <article>\n      <h1>Willkommen zum Seminar über semantisches HTML und SCSS!</h1>\n      <p>Heute werden wir die Bedeutung von semantischem HTML erkunden und erfahren, wie SCSS unsere Stylesheet-Entwicklung verbessern kann.</p>\n    </article>\n  </section>\n</div>",
+        "css": "\n.slide-content {\n  background-color: #27ae60;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  margin-top: 20px;\n}\n.example header {\n  background-color: #2c3e50;\n  padding: 10px;\n  color: #fff;\n}\n.example article {\n  padding: 20px;\n  border: 1px solid #ecf0f1;\n  background-color: #fff;\n  border-radius: 5px;\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Verstehen Sie, wie semantisches HTML und SCSS in Kombination die Benutzererfahrung verbessern können."
+      },
+      {
+        "title": "Slide 23 - Fortgeschrittene semantische Tags mit SCSS",
+        "inhalt": "<ul>\n  <li><h3>Anwendung von fortgeschrittenen semantischen Tags.</h3></li>\n  <li><h3>Styling mit SCSS für eine moderne und attraktive Benutzeroberfläche.</h3></li>\n</ul>",
+        "html": "\n<div class=\"slide-content\">\n  <h2>Die Zukunft des Webdesigns: Fortgeschrittene semantische Tags</h2>\n  <p>Entdecken Sie die Power von fortgeschrittenen semantischen Tags und wie Sie mit SCSS eine moderne und attraktive Benutzeroberfläche gestalten können.</p>\n  <section class=\"example\">\n    <aside>\n      <h3>Empfohlener Artikel</h3>\n      <p>Lesen Sie unseren neuesten Beitrag über fortschrittliche Webdesign-Techniken.</p>\n    </aside>\n    <main>\n      <h1>Die Zukunft des Webdesigns: Interaktivität und Benutzerfreundlichkeit</h1>\n      <p>Erfahren Sie, wie fortschrittliche semantische Tags das Webdesign revolutionieren und mit SCSS gestylt werden können.</p>\n    </main>\n  </section>\n</div>",
+        "css": "\n.slide-content {\n  background-color: #3498db;\n  padding: 30px;\n  text-align: center;\n  color: #fff;\n}\n.slide-content h2 {\n  font-size: 2em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.slide-content p {\n  font-style: italic;\n  margin-bottom: 20px;\n}\n.example {\n  margin-top: 20px;\n}\n.example aside {\n  background-color: #e74c3c;\n  padding: 10px;\n  color: #fff;\n}\n.example main {\n  padding: 20px;\n  border: 1px solid #ecf0f1;\n  background-color: #fff;\n  border-radius: 5px;\n}",
+        "js": "// Additional JavaScript for this slide",
+        "script": "Tauchen Sie ein in die Welt fortschrittlicher semantischer Tags und erfahren Sie, wie SCSS Ihre Webdesigns auf das nächste Level heben kann."
+      }
+  ]
+  
